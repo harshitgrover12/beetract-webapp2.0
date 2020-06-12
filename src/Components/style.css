@@ -1234,6 +1234,7 @@ blockquote {
 
 .landing-tab .nav-link:hover i {
     transition: inherit;
+    color: #ee3b24;
 }
 
 .landing-tab .nav-link::before {
@@ -1248,7 +1249,7 @@ blockquote {
 
 .landing-tab .nav-link.active {
     background: transparent;
-    color: #6A6A6A;
+    color: #323232;
 }
 
 .landing-tab .nav-link.active::before {

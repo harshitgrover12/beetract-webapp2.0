@@ -22,7 +22,7 @@ const AboutUs=()=>{
 					<a className="animated fadeIn nav-link py-4 active d-flex align-items-center" data-toggle="pill" href="#tab_1"
 						role="tab" aria-selected="true">
 						<i className="fa fa-info-circle mr-4"></i>
-						<span className="h4 mb-0 font-weight-bold">Who Are We</span>
+						<span className="h4 mb-0 font-weight-bold">WHO ARE WE</span>
 					</a>
 					<a className="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_2" role="tab"
 						aria-selected="true">
@@ -32,17 +32,17 @@ const AboutUs=()=>{
 					<a className="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_3" role="tab"
 						aria-selected="true">
 						<i className="fa fa-android mr-4"></i>
-						<span className="h4 mb-0 font-weight-bold">What We Do</span>
+						<span className="h4 mb-0 font-weight-bold">WHAT WE DO</span>
 					</a>
 					<a className="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_4" role="tab"
 						aria-selected="true">
 						<i className="fa fa-pagelines mr-4"></i>
-						<span className="h4 mb-0 font-weight-bold">Modern Design</span>
+						<span className="h4 mb-0 font-weight-bold">MODERN DESIGN</span>
 					</a>
 					<a className="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_5" role="tab"
 						aria-selected="true">
 						<i className="fa fa-support mr-4"></i>
-						<span className="h4 mb-0 font-weight-bold">Dedicated Support</span>
+						<span className="h4 mb-0 font-weight-bold">DEDICATED SUPPORT</span>
 					</a>
 				</div>
 			</div>
