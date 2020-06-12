@@ -49,35 +49,35 @@ const AboutUs=()=>{
 			<div className="col-md-9 col-sm-7">
 				<div className="tab-content" id="v-pills-tabContent">
 					<div className="tab-pane pl-sm-5 fade show active animated fadeInLeft" id="tab_1" role="tabpanel">
-						<i className="fa fa-trophy icon-xl text-danger mb-4"></i>
+						<i className="fa fa-trophy icon-xl  mb-4"></i>
 						<h3>We Are Awwared Winning Company</h3>
 						<p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis,
 							gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 							sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
 					</div>
 					<div className="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_2" role="tabpanel">
-						<i className="fa fa-briefcase icon-xl text-danger mb-4"></i>
+						<i className="fa fa-briefcase icon-xl mb-4"></i>
 						<h3>We Have Worldwide Business</h3>
 						<p>Helvetica cold-pressed lomo messenger bag ugh. Vinyl jean shorts Austin pork belly PBR retro, Etsy VHS
 							kitsch actually messenger bag pug. Pbrb semiotics try-hard, Schlitz occupy dreamcatcher master cleanse
 							Marfa Vice tofu. </p>
 					</div>
 					<div className="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_3" role="tabpanel">
-						<i className="fa fa-android icon-xl text-danger mb-4"></i>
+						<i className="fa fa-android icon-xl  mb-4"></i>
 						<h3>We Build Readymade Applications</h3>
 						<p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis,
 							gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 							sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
 					</div>
 					<div className="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_4" role="tabpanel">
-						<i className="fa fa-pagelines icon-xl text-danger  mb-4"></i>
+						<i className="fa fa-pagelines icon-xl   mb-4"></i>
 						<h3>Clean and Modern Design</h3>
 						<p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis,
 							gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 							sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
 					</div>
 					<div className="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_5" role="tabpanel">
-						<i className="fa fa-support icon-xl  text-danger mb-4"></i>
+						<i className="fa fa-support icon-xl   mb-4"></i>
 						<h3>24/7 Dedicated Support</h3>
 						<p>Occupy selfies Tonx, +1 Truffaut beard organic normcore tilde flannel artisan squid cray single-origin
 							coffee. Master cleanse vinyl Austin kogi, semiotics skateboard fap wayfarers health goth. Helvetica cray
