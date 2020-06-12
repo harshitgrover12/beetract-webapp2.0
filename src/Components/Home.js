@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Services from './Services';
 class Home extends Component {
     render() {
         return (
@@ -28,7 +28,7 @@ class Home extends Component {
         <header id="header">
           <div className="container">
             <div id="logo" className="pull-left">
-              <h1><span><i className="fa fa-align-center" /></span>  <a href="#body" className="scrollto"> HOUSING</a></h1> 
+              <h1><span><i className="fa fa-align-center" /></span>  <a href="#body" className="scrollto"> BEETRACT</a></h1> 
               {/* <a href="#body"><img src="img/logo.png" alt="" title="" /></a>*/}
             </div>
             <nav id="nav-menu-container">
@@ -119,26 +119,13 @@ class Home extends Component {
           <section id="about" className="wow fadeInUp">
             <div className="container">
               <div className="section-header">
-                <h2>WHO WE ARE?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p>
+                
+                <Services/>
               </div>
-              <div className="row">
-                <div className="col-lg-6 about-img">
-                  <img src="img/about-img.png" alt="" />
-                </div>
-                <div className="col-lg-6 content">
-                  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-                  <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3>
-                  <p>Consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat</p>
-                  <ul>
-                    <li><i className="icon ion-ios-checkmark-outline" /> Dolores quae porro consequatur aliquam, incidunt fugiat culpa.</li>
-                    <li><i className="icon ion-ios-checkmark-outline" /> Dolores quae porro consequatur aliquam, culpa esse aute nulla.</li>
-                    <li><i className="icon ion-ios-checkmark-outline" /> Dolores quae porro esse aute nulla. malis nulla duis fugiat</li>
-                  </ul> 
-                </div>
+             
               </div>
-            </div>
-          </section>{/* #about */}
+              </section>
+            {/* #about */}
           {/*==========================
       Clients Section
     ============================*/}
