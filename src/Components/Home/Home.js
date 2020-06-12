@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Services from './Services';
 import AboutUs from './AboutUs';
 import img from './clouds.png';
+import img1 from './beetractlogo.png';
 class Home extends Component {
     render() {
         return (
@@ -30,12 +31,12 @@ class Home extends Component {
         <header id="header">
           <div className="container">
             <div id="logo" className="pull-left">
-              <h1><span><i className="fa fa-align-center" /></span>  <a href="#body" className="scrollto"> BEETRACT</a></h1> 
+              <h1> <a href="#body" className="scrollto"><img src={img1} height={120} width={140} style={{position:'absolute',left:'20px',top:'-8px'}}/> </a></h1> 
              
             </div>
             <nav id="nav-menu-container">
-              <ul className="nav-menu">
-                <li className="menu-active"><a href="#body">Home</a></li>
+              <ul className="nav-menu" style={{position:'relative',left:'70%',padding:'10px'}}>
+                <li className="menu-active" ><a href="#body">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -53,10 +54,24 @@ class Home extends Component {
             <div className="intro-content1 wow fadeInUp" data-wow-delay='1s'>
             <img src={img} width={250} height={300} style={{left:'500px'}}/>
           </div>
-          <div id="intro-carousel" className="owl-carousel">
-            <div className="item"  />
-            
+          <div className="intro-content2 wow fadeInUp" data-wow-delay='1s'>
+          <p style={{postition:'relative',fontWeight:1000,color:'black',fontSize:'30px',marginLeft:'5px'}}> Home to</p>
+          <p style={{position:'relative',fontWeight:'1500',fontSize:'100px',marginTop:'25px',color:'black'}}>Opportunities</p>
           </div>
+          <div className="intro-content2 wow fadeInUp" data-wow-delay='1s' style={{display:'inline-block',marginRight:'20px'}}>
+          <a href="#howItworks"><div className="gradient-border wow fadeInUp" id="box"><i>How it works</i> </div></a>
+          
+          </div>
+          <div className="intro-content2 wow fadeInUp" data-wow-delay='1s' style={{display:'inline-block',marginRight:'20px'}}>
+          <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Get Started</i> </div></a>
+          </div>
+          <div className="intro-content2 " data-wow-delay='1s' style={{display:'inline-block'}}>
+          <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Projects</i> </div></a>
+          </div>
+          <div id="intro-carousel" className="owl-carousel">
+           
+          </div>
+          
         </section>{/* #intro */}
         <main id="main">
           {/*==========================
@@ -117,7 +132,7 @@ class Home extends Component {
           {/*==========================
      Service Section
     ============================*/}
-          <section id="services" className="wow fadeInUp">
+          <section id="howItworks" className="wow fadeInUp">
             <div className="container">
               <div className="section-header">
                 

@@ -159,7 +159,7 @@ h6 {
 
 #header {
     padding: 20px 0;
-    height: 84px;
+    height: 120px;
     transition: all 0.5s;
     z-index: 997;
     background: #ffffff;
@@ -168,10 +168,54 @@ h6 {
 
 #header #logo h1 {
     font-size: 32px;
-    padding: 0;
     line-height: 45px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: white;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #A4215d, #ef4e7b, #a166ab);
+    ;
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #header #logo h1 span i {
@@ -215,51 +259,39 @@ h6 {
 
 #intro {
     width: 100%;
-    height: 100%;
     position: relative;
     background: url("../img/intro-carousel/BeeTract_Home1.jpg") no-repeat;
     background-size: cover;
+    resize: both;
 }
 
 #intro .intro-content {
-    position: absolute;
+    position: relative;
     top: 0px;
-    left: 540px;
+    left: 41%;
     z-index: 10;
-    text-align: left;
     text-align: left;
 }
 
 #intro .intro-content1 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    position: relative;
+    top: -350px;
+    left: 90%;
     z-index: 10;
-    text-align: left;
-    text-align: left;
 }
 
-#intro .intro-content h2 {
-    color: #fff;
-    margin-bottom: 30px;
-    font-size: 24px;
-    text-align: center;
-    padding: 35px;
-    display: block;
-    margin: 0 auto;
-}
-
-#intro .intro-content h2 span {
-    font-size: 55px;
-    text-transform: uppercase;
-    color: #FF9800;
-    font-weight: bold;
+#intro .intro-content2 {
+    position: relative;
+    top: -450px;
+    left: 1%;
+    z-index: 10;
 }
 
 @media (max-width: 767px) {
-    #intro .intro-content h2 {
+    #intro .intro-content2 p {
         font-size: 22px;
         padding: 15px;
+        position: relative;
     }
 }
 
@@ -319,9 +351,8 @@ h6 {
 
 #intro #intro-carousel .item {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     -webkit-transition-property: opacity;
     transition-property: opacity;
@@ -346,7 +377,7 @@ h6 {
     position: absolute;
     display: none;
     top: 100%;
-    left: 0;
+    left: 800px;
     z-index: 99;
 }
 
@@ -418,12 +449,16 @@ h6 {
     border: 0;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 25px;
+    outline: none;
+    border: 1px solid transparent;
 }
 
 .nav-menu li:hover>a,
 .nav-menu>.menu-active>a {
-    color: #E91E63;
+    color: white;
+    border: 1px solid #111;
+    background: #A4215d;
 }
 
 .nav-menu>li {
@@ -443,7 +478,7 @@ h6 {
     color: #333;
     transition: 0.3s;
     display: block;
-    font-size: 13px;
+    font-size: 20px;
     text-transform: none;
 }
 
@@ -493,27 +528,28 @@ h6 {
     bottom: 0;
     z-index: 998;
     background: #F44336;
-    left: -260px;
-    width: 260px;
-    overflow-y: auto;
+    left: -240px;
+    width: 240px;
+    overflow: hidden;
     transition: 0.4s;
 }
 
 #mobile-nav ul {
     padding: 0;
-    margin: 0;
+    margin-right: 0;
     list-style: none;
 }
 
 #mobile-nav ul li {
     position: relative;
+    right: 50%;
 }
 
 #mobile-nav ul li a {
     color: #fffc;
     font-size: 16px;
     overflow: hidden;
-    padding: 10px 22px 10px 15px;
+    padding: 10px 10px 10px 15px;
     position: relative;
     text-decoration: none;
     width: 100%;
@@ -694,7 +730,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #services {
-    padding: 60px 0 0 0;
+    padding: 0 0 0 0;
 }
 
 #services .box {
