@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Services from './Services';
+import AboutUs from './AboutUs';
 class Home extends Component {
     render() {
         return (
@@ -121,6 +122,7 @@ class Home extends Component {
               <div className="section-header">
                 
                 <Services/>
+                <AboutUs/>
               </div>
              
               </div>
