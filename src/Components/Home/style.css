@@ -195,6 +195,7 @@ section {
 .heading {
     padding-bottom: 50px;
     margin-top: 10px;
+    margin-left: 350px;
     transition: all 0.3s ease 0s;
 }
 
@@ -273,11 +274,11 @@ ul.arrow li:before {
 }
 
 .icon-pentagon:before {
-    border-bottom: 10px solid #ee3b24;
+    border-bottom: 20px solid #ee3b24;
 }
 
 .icon-pentagon:after {
-    border-top: 10px solid #ee3b24;
+    border-top: 20px solid #ee3b24;
 }
 
 .service-icon:before {

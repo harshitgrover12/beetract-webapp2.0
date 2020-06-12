@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Services from './Services';
+import AboutUs from './AboutUs';
+
 class Home extends Component {
     render() {
         return (
@@ -46,15 +48,11 @@ class Home extends Component {
         </header>{/* #header */}
         <section id="intro">
           <div className="intro-content">
-            <h2><span>Interior Design</span><br />FURNISHING YOUR HOME</h2>
-            <div>
-              <a href="#contact" className="btn-get-started scrollto">Contact Us</a> 
-            </div>
+            
           </div>
           <div id="intro-carousel" className="owl-carousel">
-            <div className="item" style={{backgroundImage: 'url("img/intro-carousel/1.jpg")'}} />
-            <div className="item" style={{backgroundImage: 'url("img/intro-carousel/2.jpg")'}} />
-            <div className="item" style={{backgroundImage: 'url("img/intro-carousel/3.jpg")'}} /> 
+            <div className="item"  />
+            
           </div>
         </section>{/* #intro */}
         <main id="main">
@@ -64,7 +62,7 @@ class Home extends Component {
           <section id="services">
             <div className="container">
               <div className="section-header">
-                <h2>OUR SERVICES</h2>
+                <h2>What You can get</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
               </div>
               <div className="row">
@@ -114,9 +112,9 @@ class Home extends Component {
             </div>
           </section>{/* #services */}
           {/*==========================
-      About Section
+     Service Section
     ============================*/}
-          <section id="about" className="wow fadeInUp">
+          <section id="services" className="wow fadeInUp">
             <div className="container">
               <div className="section-header">
                 
@@ -129,6 +127,15 @@ class Home extends Component {
           {/*==========================
       Clients Section
     ============================*/}
+    <section id="about" className="wow fadeInUp">
+            <div className="container">
+              <div className="section-header">
+                
+                <AboutUs/>
+              </div>
+             
+              </div>
+              </section>
           <section id="clients" className="wow fadeInUp">
             <div className="container">
               <div className="section-header">
