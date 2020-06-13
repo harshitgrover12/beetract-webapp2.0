@@ -90,7 +90,7 @@ h5,
 
 .icon-xl {
     font-size: 200px;
-    color: #ee3b24;
+    color: #A4215d;
     
 }
 
@@ -1274,7 +1274,7 @@ blockquote {
 }
 
 .landing-tab .nav-link i {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .landing-tab .nav-link:hover {
@@ -1283,7 +1283,7 @@ blockquote {
 
 .landing-tab .nav-link:hover i {
     transition: inherit;
-    color: #ee3b24;
+    color: #A4215d;
     
 }
 
@@ -1301,7 +1301,7 @@ blockquote {
 }
 .landing-tab .nav-link.active i {
     background: transparent;
-    color: #ee3b24;
+    color: #A4215d;
     
 }
 
@@ -1313,7 +1313,7 @@ blockquote {
 
 .landing-tab .nav-link.active::before {
     opacity: 1;
-    border-right: 7px solid #ee3b24;
+    border-right: 7px solid #A4215d;
     
 }
 

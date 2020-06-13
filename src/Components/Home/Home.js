@@ -154,7 +154,7 @@ class Home extends Component {
           <section id="about" className="wow fadeInUp">
             <div className="container">
               <div className="section-header">
-                
+              <h2 style={{fontSize:'56px',marginTop:'100px'}}>Company Profile</h2>
                 <AboutUs/>
               </div>
              
