@@ -261,7 +261,8 @@ h6 {
     width: 100%;
     position: 'relative';
     background: url("../img/intro-carousel/BeeTract_Home1.jpg") no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 #intro .intro-content {
@@ -287,6 +288,10 @@ h6 {
 }
 
 @media (max-width: 767px) {
+    #intro {
+        background: cover;
+        background-position: center;
+    }
     #intro .intro-content2 p {
         font-size: 22px;
         padding: 15px;
@@ -335,7 +340,6 @@ h6 {
 }
 
 #intro #intro-carousel::before {
-    content: '';
     /* background: linear-gradient(45deg, #8BC34A -132%, #000000 100%); */
     position: absolute;
     height: 100%;
@@ -799,6 +803,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 767px) {
+    #services .box {
+        position: relative;
+        padding: 40px;
+        margin-bottom: 40px;
+        background: #fff;
+        transition: 0.4s;
+        border: 1px solid #dedede;
+    }
+    #services .box:hover {
+        box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+    }
     #services .box .box {
         margin-bottom: 20px;
     }
@@ -1441,4 +1459,7 @@ p.help-block li {
     margin: auto;
     font-weight: 600;
     padding: 9px 0;
+}
+
+
 }
