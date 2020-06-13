@@ -258,7 +258,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #intro {
-    width: 100%;
+    max-width: 100%;
     position: 'relative';
     background: url("../img/intro-carousel/BeeTract_Home1.jpg") no-repeat;
     background-size: 100% 100%;
