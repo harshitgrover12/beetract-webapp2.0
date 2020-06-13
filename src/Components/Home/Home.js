@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Services from './Services';
 import AboutUs from './AboutUs';
+import img from './clouds.png';
 class Home extends Component {
     render() {
         return (
@@ -30,7 +31,6 @@ class Home extends Component {
           <div className="container">
             <div id="logo" className="pull-left">
               <h1><span><i className="fa fa-align-center" /></span>  <a href="#body" className="scrollto"> BEETRACT</a></h1> 
-              {/* <a href="#body"><img src="img/logo.png" alt="" title="" /></a>*/}
             </div>
             <nav id="nav-menu-container">
               <ul className="nav-menu">
@@ -46,17 +46,19 @@ class Home extends Component {
           </div>
         </header>{/* #header */}
         <section id="intro">
-          <div className="intro-content">
-            <h2><span>Interior Design</span><br />FURNISHING YOUR HOME</h2>
-            <div>
-              <a href="#contact" className="btn-get-started scrollto">Contact Us</a> 
-            </div>
-          </div>
+        <div className="intro-content wow fadeInUp" data-wow-delay='1s'>
+            <img src={img} width={400} height={400}/>
+        </div>
+
+        <div className="intro-content1 wow fadeInUp" data-wow-delay='1s'>
+            <img src={img} width={250} height={300} style={{left:'500px'}}/>
+        </div>
+
+
           <div id="intro-carousel" className="owl-carousel">
-            <div className="item" style={{backgroundImage: 'url("img/intro-carousel/1.jpg")'}} />
-            <div className="item" style={{backgroundImage: 'url("img/intro-carousel/2.jpg")'}} />
-            <div className="item" style={{backgroundImage: 'url("img/intro-carousel/3.jpg")'}} /> 
+            <div className="item" />
           </div>
+          
         </section>{/* #intro */}
         <main id="main">
           {/*==========================
