@@ -258,10 +258,11 @@ h6 {
 # Intro Section
 --------------------------------------------------------------*/
 #intro {
- width: 100%;
+ 
+ 
   position: relative;
   background: url("../img/intro-carousel/BeeTract_Home1.jpg") no-repeat;
-  background-size: 1920px 900px;
+  background-size: cover;
   border-bottom: 3px solid #A4215d;
 }
 
