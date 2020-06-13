@@ -3,6 +3,7 @@ import Services from './Services';
 import AboutUs from './AboutUs';
 import img from './clouds.png';
 import img1 from './beetractlogo.png';
+import img2 from './BeeTract_Home1.jpg';
 class Home extends Component {
     render() {
         return (
@@ -36,7 +37,7 @@ class Home extends Component {
             <nav id="nav-menu-container">
               <ul className="nav-menu" style={{position:'relative',left:'70%',padding:'10px'}}>
                 <li className="menu-active" ><a href="#body">Home</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#ourSolutions">Solutions</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#pricing">Pricing</a></li>	
@@ -58,7 +59,7 @@ class Home extends Component {
           <p style={{position:'relative',fontWeight:'1500',fontSize:'100px',marginTop:'25px',color:'black'}}>Opportunities</p>
           </div>
           <div className="intro-content2 wow fadeInUp" data-wow-delay='1s' style={{display:'inline-block',marginRight:'20px'}}>
-          <a href="#howItworks"><div className="gradient-border wow fadeInUp" id="box"><i>How it works</i> </div></a>
+          <a href="#services"><div className="gradient-border wow fadeInUp" id="box"><i>How it works</i> </div></a>
           
           </div>
           <div className="intro-content2 wow fadeInUp" data-wow-delay='1s' style={{display:'inline-block',marginRight:'20px'}}>
@@ -67,7 +68,8 @@ class Home extends Component {
           <div className="intro-content2 " data-wow-delay='1s' style={{display:'inline-block'}}>
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Projects</i> </div></a>
           </div>
-          <div id="intro-carousel" className="owl-carousel">
+          <div id="intro-carousel"className='owl-carousel' >
+            
            
           </div>
           
@@ -79,8 +81,7 @@ class Home extends Component {
           <section id="services">
             <div className="container">
               <div className="section-header">
-                <h2>What You can get</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                <h2 style={{fontSize:'56px',marginTop:'100px'}}>What You can get</h2>
               </div>
               <div className="row">
                 <div className="col-lg-4">
@@ -91,12 +92,14 @@ class Home extends Component {
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="box wow fadeInRight">
+                  <div className="box wow fadeInRight" style={{marginLeft:'200px'}}>
                     <div className="icon"><i className="fa fa-university" /></div>
                     <h4 className="title"><a href>ARCHITECTURE</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
+                </div>
+                <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="icon"><i className="fa fa-shopping-bag" /></div>
@@ -104,13 +107,15 @@ class Home extends Component {
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4" style={{marginLeft:'200px'}}>
                   <div className="box wow fadeInLeft">
                     <div className="icon"><i className="fa fa-signal" /></div>
                     <h4 className="title"><a href>KITCHEN</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
+                </div>
+                <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInRight">
                     <div className="icon"><i className="fa fa-key" /></div>
@@ -118,12 +123,13 @@ class Home extends Component {
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4" style={{marginLeft:'200px'}}>
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="icon"><i className="fa fa-dropbox" /></div>
                     <h4 className="title"><a href>SPACE PLANNING</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -131,7 +137,7 @@ class Home extends Component {
           {/*==========================
      Service Section
     ============================*/}
-          <section id="howItworks" className="wow fadeInUp">
+          <section id="ourSolutions" className="wow fadeInUp">
            
               <div className="section-header">
                 
