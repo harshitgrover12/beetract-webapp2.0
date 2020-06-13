@@ -10,44 +10,45 @@ const Services=()=>{
          <section  className='service angle'>           
         <div className='container'>
           <div className='row'>
-            <div className='col-md-12 heading'>
-             
-              <h2 className='title'>Service We Provide <span className='title-desc'>A Quality Experience Team with 4 years
-                  experience</span></h2>
-            </div>
+           
           </div>{/* Title row end */}
-          <div className='row'>
+          <div className='row' >
+            <div className='wow fadeInDown' data-wow-delay=".5s">
+              <div className='service-content text-center'style={{marginLeft:'300px'}}>
+                <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>All about Projects</h3></span></div>
+              </div>
+            </div>
+            <div className='col-md-3  wow fadeInDown' data-wow-delay=".7s">
+              <div className=' service-content text-center'>
+                <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>Projects</h3></span></div>
+              </div>
+            </div>
+            </div>
+            <div className="row" >
+            <div className=' wow fadeInDown' data-wow-delay=".5s">
+              <div className='service-content text-center'style={{marginLeft:'190px'}}>
+                <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>Hire Talents</h3></span></div>
+              </div>
+            </div>
+            <div className=' wow fadeInDown' data-wow-delay=".5s">
+              <div className='service-content text-center' style={{marginLeft:'230px'}}>
+                <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>Pre-Lancer</h3></span></div>
+              </div>
+            </div>
+            </div>
+            <div className="row">
+            <div className='wow fadeInDown' data-wow-delay=".5s"style={{marginLeft:'300px'}}>
+              <div className='service-content text-center'>
+                <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>Incubation</h3></span></div>
+              </div>
+            </div>
             <div className='col-md-3 col-sm-3 wow fadeInDown' data-wow-delay=".5s">
               <div className='service-content text-center'>
-                <span className='service-icon icon-pentagon'><i className="fa fa-tachometer" /></span>
-                <h3>Web Design</h3>
-                <p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor</p>
+                <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>Assistance</h3></span></div>
               </div>
             </div>
-            {/*/ End first service */}
-            <div  className='col-md-3 col-sm-3 wow fadeInDown'data-wow-delay=".8s">
-              <div className='service-content text-center'>
-                <span className='service-icon icon-pentagon'><i className="fa fa-android" /></span>
-                <h3>Apps Development</h3>
-                <p>Food truck master cleanse mixtape minim Portland, cardigan stumptown chambray swag</p>
-              </div>
-            </div>
-            {/*/ End Second service */}
-            <div  className='col-md-3 col-sm-3 wow fadeInDown' data-wow-delay="1.1s">
-              <div className='service-content text-center'>
-                <span className='service-icon icon-pentagon'><i className="fa fa-shopping-cart" /></span>
-                <h3>eCommerce Websites</h3>
-                <p>Neutra Thundercats craft beer, listicle meggings bicycle rights 90's XOXO beard cardiga</p>
-              </div>
-            </div>
-            {/*/ End Third service */}
-            <div className='col-md-3 col-sm-3 wow fadeInDown' data-wow-delay="1.4s">
-              <div className='service-content text-center'>
-                <span className='service-icon icon-pentagon'><i className="fa fa-lightbulb-o" /></span>
-                <h3>Design for Startups</h3>
-                <p>We design beautiful modern engaging websites that always latest responsive technologies.</p>
-              </div>
-            </div>
+            
+           
             {/*/ End 4th service */}
           </div>{/* Content row end */}
         </div>           

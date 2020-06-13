@@ -31,8 +31,7 @@ class Home extends Component {
         <header id="header">
           <div className="container">
             <div id="logo" className="pull-left">
-              <h1> <a href="#body" className="scrollto"><img src={img1} height={120} width={140} style={{position:'absolute',left:'20px',top:'-8px'}}/> </a></h1> 
-             
+              <h1> <a href="#body" className="scrollto"><img src={img1} height={120} width={140} style={{position:'absolute',left:'20px',top:'-8px'}}/> </a></h1>  
             </div>
             <nav id="nav-menu-container">
               <ul className="nav-menu" style={{position:'relative',left:'70%',padding:'10px'}}>
@@ -133,13 +132,12 @@ class Home extends Component {
      Service Section
     ============================*/}
           <section id="howItworks" className="wow fadeInUp">
-            <div className="container">
+           
               <div className="section-header">
                 
                 <Services/>
               </div>
              
-              </div>
               </section>
             {/* #about */}
           {/*==========================
@@ -173,98 +171,7 @@ class Home extends Component {
           {/*==========================
       Our Portfolio Section
     ============================*/}
-          <section id="portfolio" className="wow fadeInUp">
-            <div className="container">
-              <div className="section-header">
-                <h2>Our Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-              </div>
-            </div>
-            <div className="container-fluid">
-              <div className="row no-gutters">
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/1.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/1.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name</h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/2.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/2.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name</h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/3.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/3.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name</h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/4.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/4.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name</h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/5.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/5.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name</h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/6.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/6.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name </h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/7.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/7.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name </h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4">
-                  <div className="portfolio-item wow fadeInUp">
-                    <a href="img/portfolio/8.jpg" className="portfolio-popup">
-                      <img src="img/portfolio/8.jpg" alt="" />
-                      <div className="portfolio-overlay">
-                        <div className="portfolio-info"><h2 className="wow fadeInUp">Portfolio Name</h2></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>{/* #portfolio */}
+          {/* #portfolio */}
           {/*==========================
       Testimonials Section
     ============================*/}
@@ -388,19 +295,7 @@ class Home extends Component {
           {/*==========================
       Call To Action Section
     ============================*/}
-          <section id="call-to-action" className="wow fadeInUp">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-9 text-center text-lg-left">
-                  <h3 className="cta-title">Get Our Service</h3>
-                  <p className="cta-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div className="col-lg-3 cta-btn-container text-center">
-                  <a className="cta-btn align-middle" href="#contact">Contact Us</a>
-                </div>
-              </div>
-            </div>
-          </section>{/* #call-to-action */}
+          
           {/*==========================
       Our Team Section
     ============================*/}
@@ -537,16 +432,7 @@ class Home extends Component {
         {/*==========================
     Footer
   ============================*/}
-        <footer id="footer">
-          <div className="container">
-            <div className="copyright">
-              © Copyright <strong>Housing</strong>. All Rights Reserved
-            </div>
-            <div className="credits"> 
-              Template by <a href="https://webthemez.com/consulting/">WebThemez</a>
-            </div>
-          </div>
-        </footer>{/* #footer */}
+        
         <a href="#" className="back-to-top"><i className="fa fa-chevron-up" /></a>
       </div>
         )
