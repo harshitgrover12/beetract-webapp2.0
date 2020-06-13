@@ -482,7 +482,7 @@ blockquote {
 
 .icon-pentagon {
     display: inline-block;
-    height: 24px;
+    height: 40px;
     width: 40px;
     position: relative;
     color: #fff;
@@ -496,7 +496,7 @@ blockquote {
 .icon-pentagon:before {
     border-left: 20px solid rgba(0, 0, 0, 0);
     border-right: 20px solid rgba(0, 0, 0, 0);
-    top: -10px;
+    top: 20px;
     content: "";
     height: 0;
     left: 0;
@@ -507,7 +507,7 @@ blockquote {
 .icon-pentagon:after {
     border-left: 20px solid rgba(0, 0, 0, 0);
     border-right: 20px solid rgba(0, 0, 0, 0);
-    bottom: -10px;
+    bottom: -20px;
     content: "";
     height: 0;
     left: 0;
@@ -521,26 +521,74 @@ blockquote {
 }
 
 .service-icon {
-    height: 46px;
-    width: 90px;
-    margin-bottom: 50px;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 60px;
 }
 
 .service-icon:before {
-    border-left: 45px solid rgba(0, 0, 0, 0);
-    border-right: 45px solid rgba(0, 0, 0, 0);
+    border-left: 100px solid rgba(0, 0, 0, 0);
+    border-right: 100px solid rgba(0, 0, 0, 0);
     top: -30px;
 }
 
 .service-icon:after {
-    border-left: 45px solid rgba(0, 0, 0, 0);
-    border-right: 45px solid rgba(0, 0, 0, 0);
+    border-left: 100px solid rgba(0, 0, 0, 0);
+    border-right: 100px solid rgba(0, 0, 0, 0);
     bottom: -30px;
+    height: 0;
+    width: 0;
 }
 
 .service-icon i {
     font-size: 36px;
     line-height: 46px;
+}
+
+.hexagon {
+    position: relative;
+    width: 190px;
+    height: 109.70px;
+    background-color: #a1205c;
+    margin: 34.85px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 134.35px;
+    height: 134.35px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 27.8249px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+}
+
+.hexagon:before {
+    top: -67.1751px;
+}
+
+.hexagon:after {
+    bottom: -67.1751px;
+}
+
+
+/*cover up extra shadows*/
+
+.hexagon span {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 190px;
+    height: 109.6966px;
+    z-index: 2;
+    background: inherit;
 }
 
 
@@ -1117,7 +1165,7 @@ blockquote {
 ================================================== */
 
 .service {
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .service-heading {
@@ -1126,7 +1174,7 @@ blockquote {
 }
 
 .service-content {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .service-content h3 {
