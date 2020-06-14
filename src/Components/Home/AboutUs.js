@@ -6,14 +6,14 @@ const AboutUs=()=>{
     return (
             
         <section id="main-container">
-	<div className="container">
+	<div classNameName="container">
 
 		
 		<div className="row">
-			<div className="col-md-12 heading">
+			
+		<div className="col-md-12 heading">
 				
-				<h2 className="title classNameic">Company Profile</h2>
-			</div>
+		</div>
 		</div>
 
 		<div className="row landing-tab">

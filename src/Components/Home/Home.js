@@ -39,10 +39,9 @@ class Home extends Component {
                 <li className="menu-active" ><a href="#body">Home</a></li>
                 <li><a href="#ourSolutions">Solutions</a></li>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#pricing">Pricing</a></li>	
-                <li><a href="#team">Our Team</a></li>	  
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#portfolio">Get Support</a></li>
+                <li><a href="#pricing">SignIn/SignUp</a></li>	
+                
               </ul>
             </nav>{/* #nav-menu-container */}
           </div>
@@ -71,7 +70,7 @@ class Home extends Component {
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Projects</i> </div></a>
           </div>
           <div id="intro-carousel"className='owl-carousel' >
-            
+           
            
           </div>
           
@@ -89,14 +88,14 @@ class Home extends Component {
                 <div className="col-lg-4">
                   <div className="box wow fadeInLeft">
                     <div className="icon"><i className="fa fa-home" /></div>
-                    <h4 className="title"><a href>INTERIOR DESIGN</a></h4>
+                    <h4 className="title"><a href>PROJECTS</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
                 <div className="col-lg-4 st">
                   <div className="box wow fadeInRight" >
                     <div className="icon"><i className="fa fa-university" /></div>
-                    <h4 className="title"><a href>ARCHITECTURE</a></h4>
+                    <h4 className="title"><a href>PRELANCERS</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
@@ -105,14 +104,14 @@ class Home extends Component {
                 <div className="col-lg-4">
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="icon"><i className="fa fa-shopping-bag" /></div>
-                    <h4 className="title"><a href>CONSULTATIONS</a></h4>
+                    <h4 className="title"><a href>ASSISTANCE</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
                 <div className="col-lg-4 st" >
                   <div className="box wow fadeInLeft">
                     <div className="icon"><i className="fa fa-signal" /></div>
-                    <h4 className="title"><a href>KITCHEN</a></h4>
+                    <h4 className="title"><a href>HIRE TALENTS</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
@@ -121,14 +120,14 @@ class Home extends Component {
                 <div className="col-lg-4">
                   <div className="box wow fadeInRight">
                     <div className="icon"><i className="fa fa-key" /></div>
-                    <h4 className="title"><a href>DECORATIVE</a></h4>
+                    <h4 className="title"><a href>INCUBATION</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                 </div>
                 <div className="col-lg-4 st" >
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="icon"><i className="fa fa-dropbox" /></div>
-                    <h4 className="title"><a href>SPACE PLANNING</a></h4>
+                    <h4 className="title"><a href>INCUBATION</a></h4>
                     <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                   </div>
                   
@@ -139,7 +138,7 @@ class Home extends Component {
           {/*==========================
      Service Section
     ============================*/}
-          <section id="ourSolutions" className="wow fadeInUp">
+          <section id="ourSolutions" className="wow fadeInUp"style={{marginTop:'200px'}}>
            
               <div className="section-header">
                 
@@ -154,7 +153,7 @@ class Home extends Component {
     <section id="about" className="wow fadeInUp">
             <div className="container">
               <div className="section-header">
-                
+                <h2 style={{fontSize:'56px',marginTop:'100px'}}>Company Profile</h2>
                 <AboutUs/>
               </div>
              

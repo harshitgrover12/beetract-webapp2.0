@@ -90,6 +90,7 @@ h5,
 
 .icon-xl {
     font-size: 200px;
+    color: #A4215d;
 }
 
 .btn.btn-primary {
@@ -195,7 +196,6 @@ section {
 .heading {
     padding-bottom: 50px;
     margin-top: 10px;
-    margin-left: 350px;
     transition: all 0.3s ease 0s;
 }
 
@@ -274,11 +274,11 @@ ul.arrow li:before {
 }
 
 .icon-pentagon:before {
-    border-bottom: 20px solid #ee3b24;
+    border-bottom: 10px solid #ee3b24;
 }
 
 .icon-pentagon:after {
-    border-top: 20px solid #ee3b24;
+    border-top: 10px solid #ee3b24;
 }
 
 .service-icon:before {
@@ -529,8 +529,6 @@ blockquote {
     border-left: 100px solid rgba(0, 0, 0, 0);
     border-right: 100px solid rgba(0, 0, 0, 0);
     top: -30px;
-    height: 0;
-    width: 0;
 }
 
 .service-icon:after {
@@ -1275,7 +1273,7 @@ blockquote {
 }
 
 .landing-tab .nav-link i {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .landing-tab .nav-link:hover {
@@ -1284,6 +1282,7 @@ blockquote {
 
 .landing-tab .nav-link:hover i {
     transition: inherit;
+    color: #A4215d;
 }
 
 .landing-tab .nav-link::before {
@@ -1296,13 +1295,19 @@ blockquote {
     opacity: 0;
 }
 
+.landing-tab .nav-link.active i {
+    background: transparent;
+    color: #A4215d;
+}
+
 .landing-tab .nav-link.active {
     background: transparent;
-    color: #6A6A6A;
+    color: #626262;
 }
 
 .landing-tab .nav-link.active::before {
     opacity: 1;
+    border-right: 7px solid #A4215d;
 }
 
 
