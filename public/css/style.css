@@ -258,12 +258,11 @@ h6 {
 # Intro Section
 --------------------------------------------------------------*/
 #intro {
- 
- 
+  width: 100%;
   position: relative;
   background: url("../img/intro-carousel/BeeTract_Home1.jpg") no-repeat;
   background-size: cover;
-  border-bottom: 3px solid #A4215d;
+  
 }
 
 #intro .intro-content {
@@ -359,7 +358,7 @@ h6 {
 
 #intro #intro-carousel .item {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -386,7 +385,7 @@ h6 {
   position: absolute;
   display: none;
   top: 100%;
-  left: 800;
+  left: 0;
   z-index: 99;
 }
 
@@ -539,7 +538,7 @@ h6 {
   background: #F44336;
   left: -240px;
   width: 240px;
-  overflow: hidden;
+  overflow-y: auto;
   transition: 0.4s;
 }
 
@@ -749,7 +748,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 400px;
   background: #fff;
   transition: 0.4s;
-  border: 1px solid #dedede;
+  border: 7px solid #A4215d;
 }
 
 #services .box:hover {
@@ -757,6 +756,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
+  background-color: rgb(150, 146, 146);
+  color: black;
 }
 
 #services .box .icon {

@@ -39,10 +39,8 @@ class Home extends Component {
                 <li className="menu-active"><a href="#body">Home</a></li>
                 <li><a href="#ourSolutions">Solutions</a></li>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#pricing">Pricing</a></li>	
-                <li><a href="#team">Our Team</a></li>	  
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#portfolio">Get Support</a></li>
+                <li><a href="#pricing">SignIn/SignUp</a></li>	
               </ul>
             </nav>{/* #nav-menu-container */}
           </div>
@@ -87,48 +85,49 @@ class Home extends Component {
               <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInLeft">
-                    <div className="icon"><i className="fa fa-home" /></div>
-                    <h4 className="title"><a href>INTERIOR DESIGN</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <div className="icon"><i className="fa fa-folder-open" /></div>
+                    <h4 className="title"><a href>PROJECTS</a></h4>
+                    <p className="description"><span style={{fontWeight:'1000',fontSize:'15px'}}>Companies</span> can post projects and bid on projects.<span style={{fontWeight:'1000',fontSize:'15px'}}> Prelancers</span> and<span style={{fontWeight:'1000',fontSize:'15px'}}> Freelancers</span> can bid on projects and form teams. Agreed Timelines and Payments along with <span style={{fontWeight:'1000',fontSize:'15px'}}>Progressive Project Stages</span>. Get <span style={{fontWeight:'1000',fontSize:'15px'}}>Unlimited</span> qualified proposals.</p>
                   </div>
                 </div>
                 <div className="col-lg-4">
                 <div className="box wow fadeInRight" style={{marginLeft:'200px'}}>
-                    <div className="icon"><i className="fa fa-university" /></div>
-                    <h4 className="title"><a href>ARCHITECTURE</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <div className="icon"><i className="fa fa-diamond" /></div>
+                    <h4 className="title"><a href>PRELANCERS</a></h4>
+                    <p className="description"><span style={{fontWeight:'1000',fontSize:'15px'}}>Freelancers</span> can pick team members and work collaboratively. They can also facilitate certifications.<span style={{fontWeight:'1000',fontSize:'15px'}}> Prelancerss</span> get real time<span style={{fontWeight:'1000',fontSize:'15px'}}>Work Experience, Certification</span> and<span style={{fontWeight:'1000',fontSize:'15px'}}> Quality Portfolio.</span></p>
                   </div>
                 </div>
                 </div>
                 <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
-                    <div className="icon"><i className="fa fa-shopping-bag" /></div>
-                    <h4 className="title"><a href>CONSULTATIONS</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <div className="icon"><i className="fa fa-handshake-o" /></div>
+                    <h4 className="title"><a href>ASSISTANCE</a></h4>
+                    <p className="description">Both <span style={{fontWeight:'1000',fontSize:'15px'}}>Company</span> and <span style={{fontWeight:'1000',fontSize:'15px'}}>Individual </span>can seek as well as provide assistance.<span style={{fontWeight:'1000',fontSize:'15px'}}> Get Mentor</span> for your ideas and <span style={{fontWeight:'1000',fontSize:'15px'}}>Grow your Connections.</span></p>
                   </div>
                 </div>
                 <div className="col-lg-4" style={{marginLeft:'200px'}}>
                   <div className="box wow fadeInLeft">
-                    <div className="icon"><i className="fa fa-signal" /></div>
-                    <h4 className="title"><a href>KITCHEN</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <div className="icon"><i className="fa fa-binoculars" /></div>
+                    <h4 className="title"><a href>HIRE TALENTS</a></h4>
+                    <p className="description">Provides a platform for <span style={{fontWeight:'1000',fontSize:'15px'}}>Startups</span> to hire skillful interns, manage applications and get Notifications. As an <span style={{fontWeight:'1000',fontSize:'15px'}}>Individual</span> , you get to land <span style={{fontWeight:'1000',fontSize:'15px'}}>Jobs</span>  and <span style={{fontWeight:'1000',fontSize:'15px'}}>Internships</span>  in startups and high exposure to cross functional works. </p>
                   </div>
                 </div>
                 </div>
                 <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInRight">
-                    <div className="icon"><i className="fa fa-key" /></div>
-                    <h4 className="title"><a href>DECORATIVE</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <div className="icon"><i className="fa fa-briefcase" /></div>
+                    <h4 className="title"><a href>INCUBATION</a></h4>
+                    <p className="description"><span style={{fontWeight:'1000',fontSize:'15px'}}>Startups</span> can apply for <span style={{fontWeight:'1000',fontSize:'15px'}}>Incubation</span> , get selected and <span style={{fontWeight:'1000',fontSize:'15px'}}>Grow their Startup</span>. <span style={{fontWeight:'1000',fontSize:'15px'}}>Incubators</span> can register themselves and recieve applications from various Startups.</p>
                   </div>
                 </div>
                 <div className="col-lg-4" style={{marginLeft:'200px'}}>
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="icon"><i className="fa fa-dropbox" /></div>
-                    <h4 className="title"><a href>SPACE PLANNING</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <h4 className="title"><a href>INCUBATION</a></h4>
+                    <p className="description">For <span style={{fontWeight:'1000',fontSize:'15px'}}>Entrepreneurs</span> and <span style={{fontWeight:'1000',fontSize:'15px'}}>Aspiring Entrepreneurs</span>  here is everything you need to know for building <span style={{fontWeight:'1000',fontSize:'15px'}}>Innovative</span> , better, <span style={{fontWeight:'1000',fontSize:'15px'}}>Sustainable</span> and <span style={{fontWeight:'1000',fontSize:'15px'}}>Disruptive</span> startup.</p>
+                    
                   </div>
 
                 </div>
