@@ -37,9 +37,12 @@ const Services=()=>{
                 <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>Hire Talents</h3></span></div>
               </div>
             </div>
+
+            <h3 style={{fontWeight:'bold',marginLeft:'22px',marginTop:'70px',marginRight:'-20px',fontSize:'20px'}}>Our Solutions </h3>
+
             <div className=' wow fadeInDown' data-wow-delay=".5s">
             <p style={{float:'right',fontSize:'20px',width:'230px',marginTop:'50px',marginRight:'-300px',fontWeight:'bold'}}>Form your Team! Get your enthusiastic Prelancer.</p>
-              <div className='service-content text-center' style={{marginLeft:'230px'}}>
+              <div className='service-content text-center' style={{marginLeft:'45px'}}>
                 <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>Pre-Lancer</h3></span></div>
               </div>
             </div>
