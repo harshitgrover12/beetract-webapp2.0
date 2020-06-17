@@ -32,36 +32,35 @@ class Home extends Component {
         <header id="header">
           <div className="container">
             <div id="logo" className="pull-left">
-              <h1> <a href="#body" className="scrollto"><img src={img1} height={120} width={140} style={{position:'absolute',left:'20px',top:'-8px'}}/> </a></h1>  
+            <h1> <a href="#body" className="scrollto"><img src={img1} height={120} width={140} style={{position:'absolute',left:'20px',top:'-8px'}}/> </a></h1>
             </div>
             <nav id="nav-menu-container">
-              <ul className="nav-menu" style={{position:'relative',left:'70%',padding:'10px'}}>
-                <li className="menu-active" ><a href="#body">Home</a></li>
+              <ul className="nav-menu"  style={{position:'relative',left:'70%',padding:'10px'}}>
+                <li className="menu-active"><a href="#body">Home</a></li>
                 <li><a href="#ourSolutions">Solutions</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#portfolio">Get Support</a></li>
                 <li><a href="#pricing">SignIn/SignUp</a></li>	
-                
               </ul>
             </nav>{/* #nav-menu-container */}
           </div>
         </header>{/* #header */}
         <section id="intro">
-          <div className="intro-content wow fadeInUp" data-wow-delay='1s'>
+        <div className="intro-content wow fadeInUp" data-wow-delay='1s'>
             <img src={img} width={400} height={400}/>
-            </div>
-            <div className="intro-content1 wow fadeInUp" data-wow-delay='1s'>
+        </div>
+
+        <div className="intro-content1 wow fadeInUp" data-wow-delay='1s'>
             <img src={img} width={250} height={300} style={{left:'500px'}}/>
-          </div>
-          <div className="intro-content2 wow fadeInUp" data-wow-delay='1s'>
-          <p > Home to</p>
-          
-           
-          <p className='para'>Opportunities</p>
+        </div>
+
+        <div className="intro-content2 wow fadeInUp" data-wow-delay='1s'>
+          <p style={{postition:'relative',fontWeight:1000,color:'black',fontSize:'30px',marginLeft:'5px'}}> Home to</p>
+          <p style={{position:'relative',fontWeight:'1500',fontSize:'100px',marginTop:'25px',color:'black'}}>Opportunities</p>
           </div>
           <div className="intro-content2 wow fadeInUp" data-wow-delay='1s' style={{display:'inline-block',marginRight:'20px'}}>
           <a href="#services"><div className="gradient-border wow fadeInUp" id="box"><i>How it works</i> </div></a>
-          
+
           </div>
           <div className="intro-content2 wow fadeInUp" data-wow-delay='1s' style={{display:'inline-block',marginRight:'20px'}}>
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Get Started</i> </div></a>
@@ -69,9 +68,8 @@ class Home extends Component {
           <div className="intro-content2 " data-wow-delay='1s' style={{display:'inline-block'}}>
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Projects</i> </div></a>
           </div>
-          <div id="intro-carousel"className='owl-carousel' >
-           
-           
+
+          <div id="intro-carousel" className="owl-carousel">
           </div>
           
         </section>{/* #intro */}
@@ -80,80 +78,82 @@ class Home extends Component {
       Services Section
     ============================*/}
           <section id="services">
-            <div className="container">
+          <div className="container">
               <div className="section-header">
-                <h2 style={{fontSize:'56px',marginTop:'100px'}}>What You can get</h2>
+              <h2 style={{fontSize:'56px',marginTop:'100px'}}>How It works</h2>
               </div>
               <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInLeft">
-                    <div className="icon"><i className="fa fa-home" /></div>
+                    <div className="icon"><i className="fa fa-folder-open" /></div>
                     <h4 className="title"><a href>PROJECTS</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <p className="description" ><span style={{fontWeight:'1000'}}>Companies</span> can post projects and bid on projects.<span style={{fontWeight:'1000'}}> Prelancers</span> and<span style={{fontWeight:'1000'}}> Freelancers</span> can bid on projects and form teams. Agreed Timelines and Payments along with <span style={{fontWeight:'1000'}}>Progressive Project Stages</span>. Get <span style={{fontWeight:'1000'}}>Unlimited</span> qualified proposals.</p>
                   </div>
                 </div>
-                <div className="col-lg-4 st">
-                  <div className="box wow fadeInRight" >
-                    <div className="icon"><i className="fa fa-university" /></div>
+                <div className="col-lg-4">
+                <div className="box wow fadeInRight" style={{marginLeft:'200px'}}>
+                    <div className="icon"><i className="fa fa-diamond" /></div>
                     <h4 className="title"><a href>PRELANCERS</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <p className="description"><span style={{fontWeight:'1000'}}>Freelancers</span> can pick team members and work collaboratively. They can also facilitate certifications.<span style={{fontWeight:'1000'}}> Prelancerss</span> get real time<span style={{fontWeight:'1000'}}>Work Experience, Certification</span> and<span style={{fontWeight:'1000'}}> Quality Portfolio.</span></p>
                   </div>
                 </div>
                 </div>
                 <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
-                    <div className="icon"><i className="fa fa-shopping-bag" /></div>
+                    <div className="icon"><i className="fa fa-handshake-o" /></div>
                     <h4 className="title"><a href>ASSISTANCE</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <p className="description">Both <span style={{fontWeight:'1000'}}>Company</span> and <span style={{fontWeight:'1000'}}>Individual </span>can seek as well as provide assistance.<span style={{fontWeight:'1000'}}> Get Mentor</span> for your ideas and <span style={{fontWeight:'1000'}}>Grow your Connections.</span></p>
                   </div>
                 </div>
-                <div className="col-lg-4 st" >
+                <div className="col-lg-4" style={{marginLeft:'200px'}}>
                   <div className="box wow fadeInLeft">
-                    <div className="icon"><i className="fa fa-signal" /></div>
+                    <div className="icon"><i className="fa fa-binoculars" /></div>
                     <h4 className="title"><a href>HIRE TALENTS</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <p className="description">Provides a platform for <span style={{fontWeight:'1000'}}>Startups</span> to hire skillful interns, manage applications and get Notifications. As an <span style={{fontWeight:'1000'}}>Individual</span> , you get to land <span style={{fontWeight:'1000'}}>Jobs</span>  and <span style={{fontWeight:'1000'}}>Internships</span>  in startups and high exposure to cross functional works. </p>
                   </div>
                 </div>
                 </div>
                 <div className="row">
                 <div className="col-lg-4">
                   <div className="box wow fadeInRight">
-                    <div className="icon"><i className="fa fa-key" /></div>
+                    <div className="icon"><i className="fa fa-briefcase" /></div>
                     <h4 className="title"><a href>INCUBATION</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <p className="description"><span style={{fontWeight:'1000'}}>Startups</span> can apply for <span style={{fontWeight:'1000'}}>Incubation</span> , get selected and <span style={{fontWeight:'1000'}}>Grow their Startup</span>. <span style={{fontWeight:'1000'}}>Incubators</span> can register themselves and recieve applications from various Startups.</p>
                   </div>
                 </div>
-                <div className="col-lg-4 st" >
+                <div className="col-lg-4" style={{marginLeft:'200px'}}>
                   <div className="box wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="icon"><i className="fa fa-dropbox" /></div>
                     <h4 className="title"><a href>INCUBATION</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
+                    <p className="description">For <span style={{fontWeight:'1000'}}>Entrepreneurs</span> and <span style={{fontWeight:'1000'}}>Aspiring Entrepreneurs</span>  here is everything you need to know for building <span style={{fontWeight:'1000'}}>Innovative</span> , better, <span style={{fontWeight:'1000'}}>Sustainable</span> and <span style={{fontWeight:'1000'}}>Disruptive</span> startup.</p>
+                    
                   </div>
-                  
+
                 </div>
               </div>
             </div>
+                
           </section>{/* #services */}
           {/*==========================
      Service Section
     ============================*/}
-          <section id="ourSolutions" className="wow fadeInUp"style={{marginTop:'200px'}}>
-           
-              <div className="section-header">
-                
-                <Services/>
-              </div>
-             
-              </section>
+     <section id="ourSolutions" className="wow fadeInUp">
+     <div className="section-header">
+
+      <Services/>
+      </div>
+     </section>
+        
             {/* #about */}
           {/*==========================
       Clients Section
     ============================*/}
-    <section id="about" className="wow fadeInUp">
+
+          <section id="about" className="wow fadeInUp">
             <div className="container">
               <div className="section-header">
-                <h2 style={{fontSize:'56px',marginTop:'100px'}}>Company Profile</h2>
+              <h2 style={{fontSize:'56px',marginTop:'100px'}}>Company Profile</h2>
                 <AboutUs/>
               </div>
              
@@ -178,7 +178,7 @@ class Home extends Component {
           {/*==========================
       Our Portfolio Section
     ============================*/}
-          {/* #portfolio */}
+         {/* #portfolio */}
           {/*==========================
       Testimonials Section
     ============================*/}
@@ -302,7 +302,7 @@ class Home extends Component {
           {/*==========================
       Call To Action Section
     ============================*/}
-          
+         
           {/*==========================
       Our Team Section
     ============================*/}
@@ -439,7 +439,16 @@ class Home extends Component {
         {/*==========================
     Footer
   ============================*/}
-        
+        <footer id="footer">
+          <div className="container">
+            <div className="copyright">
+              © Copyright <strong>Housing</strong>. All Rights Reserved
+            </div>
+            <div className="credits"> 
+              Template by <a href="https://webthemez.com/consulting/">WebThemez</a>
+            </div>
+          </div>
+        </footer>{/* #footer */}
         <a href="#" className="back-to-top"><i className="fa fa-chevron-up" /></a>
       </div>
         )

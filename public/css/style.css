@@ -101,8 +101,8 @@ h6 {
 
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
+  # Top Bar
+  --------------------------------------------------------------*/
 
 #topbar {
     background: linear-gradient(45deg, #E91E63 -132%, #0c2e8a 100%);
@@ -154,11 +154,12 @@ h6 {
 
 
 /*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+  # Header
+  --------------------------------------------------------------*/
 
 #header {
     padding: 20px 0;
+    width: 100%;
     height: 120px;
     transition: all 0.5s;
     z-index: 997;
@@ -254,8 +255,8 @@ h6 {
 
 
 /*--------------------------------------------------------------
-# Intro Section
---------------------------------------------------------------*/
+  # Intro Section
+  --------------------------------------------------------------*/
 
 #intro {
     width: 100%;
@@ -269,6 +270,7 @@ h6 {
     top: 0px;
     left: 41%;
     z-index: 10;
+    text-align: left;
     text-align: left;
 }
 
@@ -286,34 +288,17 @@ h6 {
     z-index: 10;
 }
 
-#intro .intro-content2 .para {
-    position: relative;
-    font-weight: 1500;
-    color: black;
-    font-size: 90px;
-    margin-left: 5px;
-    z-index: 10;
-}
-
-#intro .intro-content2 p {
-    position: relative;
-    font-weight: 1000;
-    color: black;
-    font-size: 30px;
-    margin-left: 5px;
-    z-index: 10;
+#intro .intro-content h2 span {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #A4215d;
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {
     #intro .intro-content2 p {
         font-size: 22px;
         padding: 15px;
-        position: relative;
-    }
-    #intro .intro-content2 .para {
-        font-size: 22px;
-        padding: 15px;
-        position: relative;
     }
 }
 
@@ -383,8 +368,8 @@ h6 {
 
 
 /*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+  # Navigation Menu
+  --------------------------------------------------------------*/
 
 
 /* Nav Menu Essentials */
@@ -400,7 +385,7 @@ h6 {
     position: absolute;
     display: none;
     top: 100%;
-    left: 0px;
+    left: 0;
     z-index: 99;
 }
 
@@ -552,7 +537,7 @@ h6 {
     z-index: 998;
     background: #F44336;
     left: -240px;
-    width: 150px;
+    width: 240px;
     overflow-y: auto;
     transition: 0.4s;
 }
@@ -565,7 +550,6 @@ h6 {
 
 #mobile-nav ul li {
     position: relative;
-    right: 50%;
 }
 
 #mobile-nav ul li a {
@@ -633,15 +617,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
+  # Sections
+  --------------------------------------------------------------*/
 
 
 /* Sections Header
---------------------------------*/
+  --------------------------------*/
 
 .section-header {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .section-header h2 {
@@ -677,7 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* About Section
---------------------------------*/
+  --------------------------------*/
 
 #about {
     padding: 60px 0 60px 0;
@@ -750,7 +734,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Services Section
---------------------------------*/
+  --------------------------------*/
 
 #services {
     padding: 0 0 0 0;
@@ -764,7 +748,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 400px;
     background: #fff;
     transition: 0.4s;
-    border: 1px solid #dedede;
+    border: 2px solid #A4215d;
 }
 
 #services .box:hover {
@@ -772,6 +756,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
+    background-color: rgb(150, 146, 146);
+    color: black;
 }
 
 #services .box .icon {
@@ -815,32 +801,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box p {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
-    text-align: center;
+    text-align: justify;
     display: block;
     margin: 0;
     padding-top: 15px;
 }
 
 @media (max-width: 767px) {
-    #services .box {
-        position: relative;
-        padding: 40px;
-        margin-bottom: 40px;
-        background: #fff;
-        transition: 0.4s;
-        border: 1px solid #dedede;
-    }
-    .st {
-        margin-left: 0;
-    }
-    #services .box:hover {
-        box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-        transform: translateY(-10px);
-        -webkit-transform: translateY(-10px);
-        -moz-transform: translateY(-10px);
-    }
     #services .box .box {
         margin-bottom: 20px;
     }
@@ -856,13 +825,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
-.st {
-    margin-left: 200px;
-}
-
 
 /* Clients Section
---------------------------------*/
+  --------------------------------*/
 
 #clients {
     padding: 60px 0;
@@ -903,7 +868,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Our Portfolio Section
---------------------------------*/
+  --------------------------------*/
 
 #portfolio {
     background: #F44336;
@@ -969,7 +934,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Testimonials Section
---------------------------------*/
+  --------------------------------*/
 
 #testimonials {
     padding: 60px 0;
@@ -1077,7 +1042,7 @@ p.help-block li {
 
 
 /* Call To Action Section
---------------------------------*/
+  --------------------------------*/
 
 #call-to-action {
     background: #F44336;
@@ -1124,7 +1089,7 @@ p.help-block li {
 
 
 /* Our Team Section
---------------------------------*/
+  --------------------------------*/
 
 #team {
     background: #fff;
@@ -1197,7 +1162,7 @@ p.help-block li {
 
 
 /* Contact Section
---------------------------------*/
+  --------------------------------*/
 
 #contact {
     padding: 60px 0;
@@ -1345,8 +1310,8 @@ p.help-block li {
 
 
 /*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+  # Footer
+  --------------------------------------------------------------*/
 
 #footer {
     background: #302d28;
@@ -1487,7 +1452,4 @@ p.help-block li {
     margin: auto;
     font-weight: 600;
     padding: 9px 0;
-}
-
-
 }

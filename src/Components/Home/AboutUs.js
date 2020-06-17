@@ -6,7 +6,7 @@ const AboutUs=()=>{
     return (
             
         <section id="main-container">
-	<div classNameName="container">
+	<div className="container">
 
 		
 		<div className="row">
