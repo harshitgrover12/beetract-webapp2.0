@@ -1177,7 +1177,6 @@ p.help-block li {
     font-size: 24px;
     display: inline-block;
     margin-bottom: 0;
-    float: left;
     background: #F44336;
     width: 36px;
     color: #fff;
@@ -1237,9 +1236,7 @@ p.help-block li {
     }
 }
 
-@media (min-width: 768px) {
-    #contact .contact-phone {}
-}
+@media (min-width: 768px) {}
 
 #contact #google-map {
     height: 290px;
