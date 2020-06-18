@@ -556,6 +556,29 @@ blockquote {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
+.s1 {
+    margin-left: 360px;
+}
+
+.s2 {
+    margin-left: 280px;
+    margin-top: 5px;
+}
+
+.s3 {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.s4 {
+    margin-top: 0px;
+    margin-left: 360px;
+}
+
+.s5 {
+    margin-top: 0px;
+}
+
 .hexagon:before,
 .hexagon:after {
     content: "";
