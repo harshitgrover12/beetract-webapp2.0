@@ -8,7 +8,7 @@ import Intro from './Intro'
 class Home extends Component {
     render() {
         return (
-         <div>
+         <div id="body">
         <section id="topbar" className="d-none d-lg-block">
           <div className="container clearfix">
             <div className="contact-info float-left">
