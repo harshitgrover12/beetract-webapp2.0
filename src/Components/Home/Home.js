@@ -50,8 +50,8 @@ class Home extends Component {
   ============================*/}
         <section id="intro">
         <h1 className="hello" >Home To <br/><span className="hello1">Opportunities</span></h1>
-        <div className="hello3 wow fadeInDown"><img src={img} width={250} height={270}/></div>
-        <div className="hello4 wow fadeInDown"><img src={img} width={190} height={180}/></div>
+        <div className="hello3 wow fadeInDown" data-wow-delay='1s'><img src={img} width={250} height={270}/></div>
+        <div className="hello4 wow fadeInDown"data-wow-delay='1s'><img src={img} width={190} height={180}/></div>
           <div className="hello2 wow fadeInUp" data-wow-delay='1s' >
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>How it works</i> </div></a>
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Get Started</i> </div></a>
