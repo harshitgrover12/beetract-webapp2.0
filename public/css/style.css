@@ -101,8 +101,8 @@ h6 {
 
 
 /*--------------------------------------------------------------
-  # Top Bar
-  --------------------------------------------------------------*/
+# Top Bar
+--------------------------------------------------------------*/
 
 #topbar {
     background: linear-gradient(45deg, #E91E63 -132%, #0c2e8a 100%);
@@ -154,69 +154,26 @@ h6 {
 
 
 /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
+# Header
+--------------------------------------------------------------*/
 
 #header {
     padding: 20px 0;
-    width: 100%;
-    height: 120px;
+    height: 84px;
     transition: all 0.5s;
     z-index: 997;
     background: #ffffff;
     box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+    border-top: solid 2px #a5215d;
 }
 
 #header #logo h1 {
     font-size: 32px;
+    margin: 0;
+    padding: 0;
     line-height: 45px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
-#box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 50px;
-    color: black;
-    font-family: 'Raleway';
-    font-size: 20px;
-}
-
-.gradient-border {
-    --borderWidth: 3px;
-    background: white;
-    position: relative;
-    border-radius: var(--borderWidth);
-}
-
-.gradient-border:after {
-    content: '';
-    position: absolute;
-    top: calc(-1 * var(--borderWidth));
-    left: calc(-1 * var(--borderWidth));
-    height: calc(100% + var(--borderWidth) * 2);
-    width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #A4215d, #ef4e7b, #a166ab);
-    ;
-    border-radius: calc(2 * var(--borderWidth));
-    z-index: -1;
-    animation: animatedgradient 3s ease alternate infinite;
-}
-
-@keyframes animatedgradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 #header #logo h1 span i {
@@ -255,48 +212,144 @@ h6 {
 
 
 /*--------------------------------------------------------------
-  # Intro Section
-  --------------------------------------------------------------*/
+# Intro Section
+--------------------------------------------------------------*/
 
 #intro {
     width: 100%;
+    /* height: 70vh; */
     position: relative;
     background: url("../img/intro-carousel/BeeTract_Home1.jpg") no-repeat;
     background-size: cover;
+    border-bottom: 3px solid #F44336;
+}
+
+.hello {
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+    top: 180px;
+    font-weight: 700;
+    left: 20px;
+    text-transform: none;
+}
+
+.hello3 {
+    position: absolute;
+    z-index: 10;
+    top: -40px;
+    left: 480px;
+    text-transform: none;
+}
+
+.hello4 {
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    right: 10px;
+    text-transform: none;
+}
+
+.hello1 {
+    position: absolute;
+    z-index: 10;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.hello2 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    z-index: 10;
+    display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+#box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    padding: 7px;
+    color: black;
+    margin-right: 20px;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: white;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #A4215d, #ef4e7b, #a166ab);
+    ;
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #intro .intro-content {
-    position: relative;
-    top: 0px;
-    left: 41%;
+    position: absolute;
+    bottom: 20%;
+    /* top: 0; */
+    /* left: 0; */
+    right: 0;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: left;
+    background: #00000036;
+    right: 0px;
     text-align: left;
+    top: 0;
+    bottom: 0;
+    background: #261f1566;
 }
 
-#intro .intro-content1 {
-    position: relative;
-    top: -350px;
-    left: 90%;
-    z-index: 10;
-}
-
-#intro .intro-content2 {
-    position: relative;
-    top: -450px;
-    left: 1%;
-    z-index: 10;
+#intro .intro-content h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    background: #0000008c;
+    padding: 35px;
+    display: block;
+    margin: 0 auto;
 }
 
 #intro .intro-content h2 span {
     font-size: 55px;
-    text-transform: uppercase;
-    color: #A4215d;
+    color: #FF9800;
     font-weight: bold;
 }
 
 @media (max-width: 767px) {
-    #intro .intro-content2 p {
+    #intro .intro-content h2 {
         font-size: 22px;
         padding: 15px;
     }
@@ -368,8 +421,8 @@ h6 {
 
 
 /*--------------------------------------------------------------
-  # Navigation Menu
-  --------------------------------------------------------------*/
+# Navigation Menu
+--------------------------------------------------------------*/
 
 
 /* Nav Menu Essentials */
@@ -453,20 +506,19 @@ h6 {
     padding: 10px 18px;
     text-decoration: none;
     display: inline-block;
-    color: black;
-    border: 0;
+    color: #a5215d;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 14px;
     outline: none;
     border: 1px solid transparent;
 }
 
 .nav-menu li:hover>a,
 .nav-menu>.menu-active>a {
-    color: white;
-    border: 1px solid #111;
-    background: #A4215d;
+    color: #ffffff;
+    border: 1px solid #a5215d;
+    background: #a5215d;
 }
 
 .nav-menu>li {
@@ -475,6 +527,9 @@ h6 {
 
 .nav-menu ul {
     margin: 4px 0 0 0;
+    padding: 10px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: #fff;
 }
 
 .nav-menu ul li {
@@ -486,7 +541,7 @@ h6 {
     color: #333;
     transition: 0.3s;
     display: block;
-    font-size: 20px;
+    font-size: 13px;
     text-transform: none;
 }
 
@@ -536,15 +591,15 @@ h6 {
     bottom: 0;
     z-index: 998;
     background: #F44336;
-    left: -240px;
-    width: 240px;
+    left: -260px;
+    width: 260px;
     overflow-y: auto;
     transition: 0.4s;
 }
 
 #mobile-nav ul {
     padding: 0;
-    margin-right: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -556,7 +611,7 @@ h6 {
     color: #fffc;
     font-size: 16px;
     overflow: hidden;
-    padding: 10px 10px 10px 15px;
+    padding: 10px 22px 10px 15px;
     position: relative;
     text-decoration: none;
     width: 100%;
@@ -617,12 +672,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------------
-  # Sections
-  --------------------------------------------------------------*/
+# Sections
+--------------------------------------------------------------*/
 
 
 /* Sections Header
-  --------------------------------*/
+--------------------------------*/
 
 .section-header {
     margin-bottom: 30px;
@@ -630,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
     font-size: 32px;
-    color: #A4215d;
+    color: #a5215d;
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
@@ -647,7 +702,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 3px;
     bottom: 0;
     left: 0;
-    border-top: #A4215d solid 2px;
+    border-top: #a5215d solid 2px;
     right: 0;
     text-align: center;
     margin: 0 auto;
@@ -661,7 +716,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* About Section
-  --------------------------------*/
+--------------------------------*/
 
 #about {
     padding: 60px 0 60px 0;
@@ -734,21 +789,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Services Section
-  --------------------------------*/
+--------------------------------*/
 
 #services {
-    padding: 0 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 #services .box {
-    position: relative;
-    padding: 90px;
+    padding: 40px;
     margin-bottom: 40px;
-    width: 500px;
-    height: 400px;
     background: #fff;
     transition: 0.4s;
-    border: 2px solid #A4215d;
+    border: 1px solid #dedede;
 }
 
 #services .box:hover {
@@ -756,8 +808,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
-    background-color: rgb(150, 146, 146);
-    color: black;
 }
 
 #services .box .icon {
@@ -779,7 +829,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-    background: #A4215d;
+    background: #0c2e8a;
+    background: linear-gradient(45deg, #FF9800 0%, #FF5722 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -788,7 +839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .box h4 {
     margin-left: 100px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     display: block;
     width: 100%;
     text-align: center;
@@ -801,9 +852,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box p {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 24px;
-    text-align: justify;
+    text-align: center;
     display: block;
     margin: 0;
     padding-top: 15px;
@@ -827,7 +878,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Clients Section
-  --------------------------------*/
+--------------------------------*/
 
 #clients {
     padding: 60px 0;
@@ -868,7 +919,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Our Portfolio Section
-  --------------------------------*/
+--------------------------------*/
 
 #portfolio {
     background: #F44336;
@@ -934,7 +985,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* Testimonials Section
-  --------------------------------*/
+--------------------------------*/
 
 #testimonials {
     padding: 60px 0;
@@ -1042,7 +1093,7 @@ p.help-block li {
 
 
 /* Call To Action Section
-  --------------------------------*/
+--------------------------------*/
 
 #call-to-action {
     background: #F44336;
@@ -1089,7 +1140,7 @@ p.help-block li {
 
 
 /* Our Team Section
-  --------------------------------*/
+--------------------------------*/
 
 #team {
     background: #fff;
@@ -1162,7 +1213,7 @@ p.help-block li {
 
 
 /* Contact Section
-  --------------------------------*/
+--------------------------------*/
 
 #contact {
     padding: 60px 0;
@@ -1177,6 +1228,7 @@ p.help-block li {
     font-size: 24px;
     display: inline-block;
     margin-bottom: 0;
+    float: left;
     background: #F44336;
     width: 36px;
     color: #fff;
@@ -1236,7 +1288,9 @@ p.help-block li {
     }
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    #contact .contact-phone {}
+}
 
 #contact #google-map {
     height: 290px;
@@ -1307,8 +1361,8 @@ p.help-block li {
 
 
 /*--------------------------------------------------------------
-  # Footer
-  --------------------------------------------------------------*/
+# Footer
+--------------------------------------------------------------*/
 
 #footer {
     background: #302d28;
@@ -1449,4 +1503,8 @@ p.help-block li {
     margin: auto;
     font-weight: 600;
     padding: 9px 0;
+}
+
+padding: 9px 0;
+
 }
