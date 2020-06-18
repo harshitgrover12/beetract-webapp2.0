@@ -206,7 +206,7 @@ h6 {
         font-size: 34px;
     }
     #header #logo img {
-        max-height: 40px;
+        max-height: 60px;
     }
 }
 
@@ -349,9 +349,11 @@ h6 {
 }
 
 @media (max-width: 767px) {
-    #intro .intro-content h2 {
-        font-size: 22px;
-        padding: 15px;
+    .hello3 {
+        display: none;
+    }
+    .hello4 {
+        left: 40px !important;
     }
 }
 
