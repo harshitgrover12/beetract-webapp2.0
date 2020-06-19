@@ -1,3 +1,4 @@
+-+-
 /*
 	Template Name: BizCraft Responsive HTML5/CSS3 Template
 	Author: themefisher
@@ -34,9 +35,15 @@
 23. Landing page
 24.	Style Swithcer (you can delete the css) */
 
-@import url('plugins/fontawesome/font-awesome.min.css');
-@import url('plugins/bootstrap/bootstrap.min.css');
-@import url('plugins/animate.css');
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@font-face {
+    font-family: 'JaapokkiRegular';
+    src: url("../fonts/jaapokki/jaapokki-regular.eot");
+    src: url("../fonts/jaapokki/jaapokki-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/jaapokki/jaapokki-regular.woff") format("woff"), url("../fonts/jaapokki/jaapokki-regular.ttf") format("truetype"), url("../fonts/jaapokki/jaapokki-regular.svg#JaapokkiRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body,
 p {
     font-family: 'Lato', sans-serif;
@@ -90,7 +97,6 @@ h5,
 
 .icon-xl {
     font-size: 200px;
-    color: #A4215d;
 }
 
 .btn.btn-primary {
@@ -269,26 +275,6 @@ ul.arrow li:before {
     margin-right: 10px;
 }
 
-.icon-pentagon {
-    background: none repeat scroll 0 0 #ee3b24;
-}
-
-.icon-pentagon:before {
-    border-bottom: 10px solid #ee3b24;
-}
-
-.icon-pentagon:after {
-    border-top: 10px solid #ee3b24;
-}
-
-.service-icon:before {
-    border-bottom: 30px solid #ee3b24;
-}
-
-.service-icon:after {
-    border-top: 30px solid #ee3b24;
-}
-
 blockquote p {
     font-size: 14px;
     font-weight: 400;
@@ -321,7 +307,7 @@ blockquote {
     transform: skew(0deg, 2deg);
 }
 
-.portfolio.angle:before. {
+.portfolio.angle:before {
     background: #f5f5f5;
 }
 
@@ -362,6 +348,7 @@ blockquote {
     top: 0;
     width: 100%;
     height: 100%;
+    background: url(../images/overaly.png);
 }
 
 .parallax h3 {
@@ -369,19 +356,19 @@ blockquote {
 }
 
 .parallax1 {
-    background: no-repeat;
+    background: url(../images/parallax/parallax1.jpg) no-repeat;
 }
 
 .parallax2 {
-    background: no-repeat;
+    background: url(../images/parallax/parallax2.jpg) no-repeat;
 }
 
 .parallax3 {
-    background: no-repeat;
+    background: url(../images/parallax/parallax3.jpg) no-repeat;
 }
 
 .parallax4 {
-    background: no-repeat;
+    background: url(../images/parallax/parallax4.jpg) no-repeat;
 }
 
 .parallax .btn.solid {
@@ -481,7 +468,7 @@ blockquote {
 
 .icon-pentagon {
     display: inline-block;
-    height: 40px;
+    height: 24px;
     width: 40px;
     position: relative;
     color: #fff;
@@ -495,7 +482,7 @@ blockquote {
 .icon-pentagon:before {
     border-left: 20px solid rgba(0, 0, 0, 0);
     border-right: 20px solid rgba(0, 0, 0, 0);
-    top: 20px;
+    top: -10px;
     content: "";
     height: 0;
     left: 0;
@@ -506,7 +493,7 @@ blockquote {
 .icon-pentagon:after {
     border-left: 20px solid rgba(0, 0, 0, 0);
     border-right: 20px solid rgba(0, 0, 0, 0);
-    bottom: -20px;
+    bottom: -10px;
     content: "";
     height: 0;
     left: 0;
@@ -520,197 +507,26 @@ blockquote {
 }
 
 .service-icon {
-    height: 100px;
-    width: 200px;
-    margin-bottom: 60px;
+    height: 46px;
+    width: 90px;
+    margin-bottom: 50px;
 }
 
 .service-icon:before {
-    border-left: 100px solid rgba(0, 0, 0, 0);
-    border-right: 100px solid rgba(0, 0, 0, 0);
+    border-left: 45px solid rgba(0, 0, 0, 0);
+    border-right: 45px solid rgba(0, 0, 0, 0);
     top: -30px;
 }
 
 .service-icon:after {
-    border-left: 100px solid rgba(0, 0, 0, 0);
-    border-right: 100px solid rgba(0, 0, 0, 0);
+    border-left: 45px solid rgba(0, 0, 0, 0);
+    border-right: 45px solid rgba(0, 0, 0, 0);
     bottom: -30px;
-    height: 0;
-    width: 0;
 }
 
 .service-icon i {
     font-size: 36px;
     line-height: 46px;
-}
-
-
-/*cover up extra shadows*/
-
-.hexagon {
-    position: relative;
-    width: 150px;
-    height: 86.60px;
-    background-color: #a5215d;
-    margin: 43.30px 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-}
-
-.s1 {
-    margin-left: 360px;
-}
-
-.s2 {
-    margin-left: 280px;
-    margin-top: 5px;
-}
-
-.s3 {
-    margin-top: 5px;
-    margin-left: 25px;
-}
-
-.s4 {
-    margin-top: 0px;
-    margin-left: 360px;
-}
-
-.s5 {
-    margin-top: 0px;
-}
-
-.k1 {
-    float: left;
-    font-size: 20px;
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 95px;
-    font-weight: bold;
-    color: black
-}
-
-.k2 {
-    float: left;
-    font-size: 20px;
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 180px;
-    font-weight: bold;
-    color: black;
-}
-
-.k3 {
-    float: left;
-    font-size: 20px;
-    width: 230px;
-    margin-top: 45px;
-    margin-left: 15px;
-    font-weight: bold;
-    color: black;
-}
-
-.k4 {
-    float: left;
-    font-size: 20px;
-    width: 230px;
-    margin-top: 20px;
-    margin-left: 200px;
-    font-weight: bold;
-    color: black;
-}
-
-.k5 {
-    float: left;
-    font-size: 20px;
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 95px;
-    color: black;
-    font-weight: bold;
-}
-
-.k6 {
-    float: left;
-    font-size: 20px;
-    width: 230px;
-    margin-top: 25px;
-    margin-left: 180px;
-    font-weight: bold;
-    color: black;
-}
-
-.k7 {
-    font-weight: bold;
-    margin-left: 16px;
-    margin-top: 50px;
-    margin-right: -20px;
-    font-size: 18px;
-}
-
-@media (max-width: 767px) {
-    .s1,
-    .s2,
-    .s3,
-    .s4,
-    .s5,
-    .s6 {
-        margin-left: 50%;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: 20px;
-        justify-content: center;
-    }
-    .k1,
-    .k2,
-    .k3,
-    .k4,
-    .k5,
-    .k6 {
-        margin-left: 10%;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: 20px;
-    }
-    .k7 {
-        display: none;
-    }
-}
-
-.hexagon:before,
-.hexagon:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    width: 106.07px;
-    height: 106.07px;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background-color: inherit;
-    left: 21.9670px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-}
-
-.hexagon:before {
-    top: -53.0330px;
-}
-
-.hexagon:after {
-    bottom: -53.0330px;
-}
-
-
-/*cover up extra shadows*/
-
-.hexagon span {
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 150px;
-    height: 86.6025px;
-    z-index: 2;
-    background: inherit;
 }
 
 
@@ -1035,6 +851,7 @@ blockquote {
     bottom: 0;
     left: 0;
     right: 0;
+    background-image: url(../images/overaly.png);
 }
 
 #main-slide .carousel-item img {
@@ -1287,7 +1104,7 @@ blockquote {
 ================================================== */
 
 .service {
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .service-heading {
@@ -1296,7 +1113,7 @@ blockquote {
 }
 
 .service-content {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .service-content h3 {
@@ -1396,7 +1213,7 @@ blockquote {
 }
 
 .landing-tab .nav-link i {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .landing-tab .nav-link:hover {
@@ -1405,7 +1222,6 @@ blockquote {
 
 .landing-tab .nav-link:hover i {
     transition: inherit;
-    color: #A4215d;
 }
 
 .landing-tab .nav-link::before {
@@ -1418,19 +1234,13 @@ blockquote {
     opacity: 0;
 }
 
-.landing-tab .nav-link.active i {
-    background: transparent;
-    color: #A4215d;
-}
-
 .landing-tab .nav-link.active {
     background: transparent;
-    color: #626262;
+    color: #6A6A6A;
 }
 
 .landing-tab .nav-link.active::before {
     opacity: 1;
-    border-right: 7px solid #A4215d;
 }
 
 
@@ -2289,7 +2099,7 @@ figure.effect-oscar:hover img {
 
 .footer {
     padding: 60px 0 100px;
-    background: #2e2e2e no-repeat center 0;
+    background: #2e2e2e url(../images/footer-bg.jpg) no-repeat center 0;
     background-size: cover;
     color: #fff;
     font-size: 14px;
@@ -3031,6 +2841,7 @@ ul.arrow li:before {
 
 .hero-section {
     height: 100%;
+    background-image: url(../images/landing/main-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -3481,7 +3292,7 @@ a.close-styler {
         font-size: 28px;
         border-left: 0;
     }
-    .title-desc {
+    .titleDesc {
         line-height: normal;
         padding: 6px 55px 0;
     }

@@ -15,7 +15,7 @@ const Services=()=>{
           <div className='row' >
           
             <div className='wow fadeInDown' data-wow-delay=".5s">
-            <p style={{float:'left',fontSize:'20px',width:'200px',marginTop:'50px',fontWeight:'bold'}}>Things you should know about startups. </p>
+            <p style={{float:'left',fontSize:'20px',width:'200px',marginTop:'50px',fontWeight:'bold',color:'black'}}>Things you should know about startups. </p>
               <div className='service-content text-center'style={{marginLeft:'300px'}}>
 
                 <div className="hexagon"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>All about Projects</h3></span></div>
