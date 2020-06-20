@@ -77,9 +77,9 @@ class Home extends Component {
             </div>
             <div className="container " >
               <div className="row justify-content-md-center ">
-                <div className="col-md-5  wow fadeInLeft" style={{width:'400px',height:'400px'}}>
-                  <div className="item">
-                    <div className="heading">
+                <div className="col-md-5 wow anim fadeInLeft" style={{width:'400px'}} >
+                  <div className="item " >
+                    <div className="heading" >
                       <h3>Projects</h3>
                     </div>
                     <div className="features">
