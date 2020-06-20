@@ -54,7 +54,7 @@ class Home extends Component {
         <div className="hello3 wow fadeInDown" data-wow-delay='1s'><img src={img} width={250} height={270}/></div>
         <div className="hello4 wow fadeInDown"data-wow-delay='1s'><img src={img} width={190} height={180}/></div>
           <div className="hello2 wow fadeInUp" data-wow-delay='1s' >
-          <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>How it works</i> </div></a>
+          <a href="#howItWorks"><div className="gradient-border wow fadeInUp" id="box"><i>How it works</i> </div></a>
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Get Started</i> </div></a>
           <a href="#"><div className="gradient-border wow fadeInUp" id="box"><i>Projects</i> </div></a>
           </div>
@@ -68,7 +68,7 @@ class Home extends Component {
           {/*==========================
       Services Section
     ============================*/}
-    <section id="pricing" className="pricing-table">
+    <section id="howItWorks" className="pricing-table">
             <div className="container">
               <div className="section-header">
                 <h2>How It works</h2>
@@ -77,7 +77,7 @@ class Home extends Component {
             </div>
             <div className="container " >
               <div className="row justify-content-md-center ">
-                <div className="col-md-5 " style={{width:'400px',height:'400px'}}>
+                <div className="col-md-5  wow fadeInLeft" style={{width:'400px',height:'400px'}}>
                   <div className="item">
                     <div className="heading">
                       <h3>Projects</h3>
@@ -115,7 +115,7 @@ class Home extends Component {
 
                 </div>
                 </div>
-               <div className="col-md-5" style={{width:'400px'}}>
+               <div className="col-md-5 wow fadeInRight" style={{width:'400px'}}>
                   <div className="item">
                     <div className="heading">
                       <h3>PreLancers</h3>
@@ -152,7 +152,7 @@ class Home extends Component {
                   </div>
                   
                 </div>
-                 <div className="col-md-5" style={{width:'400px'}}>
+                 <div className="col-md-5 wow fadeInLeft" style={{width:'400px'}}>
                   <div className="item">
                     <div className="heading">
                       <h3>Assistance</h3>
@@ -184,7 +184,7 @@ class Home extends Component {
 
                 </div>
                 </div>
-                 <div className="col-md-5" style={{width:'400px'}}>
+                 <div className="col-md-5 wow fadeInRight" style={{width:'400px'}}>
                   <div className="item">
                     <div className="heading">
                       <h3>Hire Talents</h3>
@@ -213,7 +213,7 @@ class Home extends Component {
                   </div>
                 </div>
                 </div>
-                <div className="col-md-5" style={{width:'400px'}}>
+                <div className="col-md-5 wow fadeInLeft" style={{width:'400px'}}>
                   <div className="item">
                     <div className="heading">
                       <h3>Incubation</h3>
@@ -243,7 +243,7 @@ class Home extends Component {
                   </div>
                 </div>
                 </div>
-                <div className="col-md-5" style={{width:'400px'}}>
+                <div className="col-md-5 wow fadeInRight" style={{width:'400px'}}>
                   <div className="item">
                     <div className="heading">
                       <h3>Incubation</h3>
@@ -269,58 +269,7 @@ class Home extends Component {
               </div>
             </div> 
           </section>
-          <section id="services">
-            <div className="container">
-              <div className="section-header">
-                <h2>OUR SERVICES</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-              </div>
-              <div className="row">
-                <div className="col-lg-4">
-                  <div className="box wow fadeInLeft">
-                    <div className="icon"><i className="fa fa-home" /></div>
-                    <h4 className="title"><a href>INTERIOR DESIGN</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="box wow fadeInRight">
-                    <div className="icon"><i className="fa fa-university" /></div>
-                    <h4 className="title"><a href>ARCHITECTURE</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="box wow fadeInLeft" data-wow-delay="0.2s">
-                    <div className="icon"><i className="fa fa-shopping-bag" /></div>
-                    <h4 className="title"><a href>CONSULTATIONS</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="box wow fadeInLeft">
-                    <div className="icon"><i className="fa fa-signal" /></div>
-                    <h4 className="title"><a href>KITCHEN</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="box wow fadeInRight">
-                    <div className="icon"><i className="fa fa-key" /></div>
-                    <h4 className="title"><a href>DECORATIVE</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="box wow fadeInLeft" data-wow-delay="0.2s">
-                    <div className="icon"><i className="fa fa-dropbox" /></div>
-                    <h4 className="title"><a href>SPACE PLANNING</a></h4>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>{/* #services */}
+
 
 <section id="ourSolutions">
             <div className="container">

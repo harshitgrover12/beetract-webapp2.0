@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
         $("#mobile-nav, #mobile-nav-toggle").hide();
     }
  
-    $('.nav-menu a, #mobile-nav a, .scrollto,.hello3 a').on('click', function() {
+    $('.nav-menu a, #mobile-nav a, .scrollto,.hello2 a').on('click', function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             if (target.length) {
