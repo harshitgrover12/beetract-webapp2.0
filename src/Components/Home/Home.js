@@ -4,7 +4,8 @@ import AboutUs from './AboutUs';
 import img from './clouds.png';
 import img1 from './beetractlogo.png';
 import img2 from './BeeTract_Home1.png';
-import Intro from './Intro'
+import Intro from './Intro';
+
 class Home extends Component {
     render() {
         return (
@@ -67,6 +68,207 @@ class Home extends Component {
           {/*==========================
       Services Section
     ============================*/}
+    <section id="pricing" className="pricing-table">
+            <div className="container">
+              <div className="section-header">
+                <h2>How It works</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+              </div>
+            </div>
+            <div className="container " >
+              <div className="row justify-content-md-center ">
+                <div className="col-md-5 " style={{width:'400px',height:'400px'}}>
+                  <div className="item">
+                    <div className="heading">
+                      <h3>Projects</h3>
+                    </div>
+                    <div className="features">
+                    <div className="row" >
+                    <div className="column" style={{width:'50%',borderRight:'1px solid rgba(0,0,0,0.1)'}}>
+                      <ul>
+                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700'}}>Company</p>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Post a Project </span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Bid on a Project</li>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Get Unlimited Qualified Proposals</li>
+                        
+                      </ul>
+                    </div>
+                      <div className="column" style={{width:'48%'}}>
+                       <ul>
+                       <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',marginLeft:'-10px',marginRight:'3px',color:'black',fontWeight:'600'}}>FreeLancer and PreLancer</p>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Bid on a project of your interest</span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Form a team with freelancers</li>
+                        
+                      </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="features" style={{borderTop:'1px solid rgba(0,0,0,0.1)'}}>
+                  <p style={{position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700',borderBottom:'1px solid rgba(0,0,0,0.1)'}}>Both</p>
+                  <ul>
+                  <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Parallel payment and project completion</span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Make means of payment on your use</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Agreed Timelines and payments</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Progressive Project Stages</li>
+                  </ul>
+                  </div>
+
+                </div>
+                </div>
+               <div className="col-md-5" style={{width:'400px'}}>
+                  <div className="item">
+                    <div className="heading">
+                      <h3>PreLancers</h3>
+                    </div>
+                    <div style={{borderBottom:'1px solid rgba(0,0,0,0.1)'}}>
+                    <span className="ps"style={{color:'black'}}>They are the skilled minds aspiring to be part of real-time projects with Freelancers.
+                                                          The No-pay enthusiasts need experience and certification in return.
+                  </span>
+                  </div>
+                  <div style={{paddingBottom:'72px',borderBottom:'1px solid rgba(0,0,0,0.1)'}}/>
+                    <div className="features">
+                    <div className="row" >
+                    <div className="column" style={{width:'50%',borderRight:'1px solid rgba(0,0,0,0.1)'}}>
+                      <ul>
+                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700'}}>Freelancers Get</p>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Pick Your team members </span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Assign Tasks</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Work Collaboratively</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Facilitate their certification</li>
+                      </ul>
+                    </div>
+                      <div className="column" style={{width:'50%'}}>
+                       <ul>
+                       <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',marginLeft:'-10px',marginRight:'12px',color:'black',fontWeight:'600'}}>Prelancers Get</p>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Real Time Work Experience</span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>certification</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Quality Portfolio</li>
+                        
+                      </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  </div>
+                  
+                </div>
+                 <div className="col-md-5" style={{width:'400px'}}>
+                  <div className="item">
+                    <div className="heading">
+                      <h3>Assistance</h3>
+                    </div>
+                    <div className="features">
+                    <div className="row" style={{borderBottom:'1px solid rgba(0,0,0,0.1)',marginLeft:0,marginRight:'0px'}} >
+                    <div className="column" style={{width:'50%',borderRight:'1px solid rgba(0,0,0,0.1)'}}>
+                      <ul>
+                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700',marginLeft:'-10px'}}>For Company</p>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Seek Assistance </span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Provide Assistance</li>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Brainstorm with experts</li>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Sort out issues in the best way</li>
+                      </ul>
+                    </div>
+                      <div className="column" style={{width:'48%'}}>
+                       <ul>
+                       <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',marginLeft:'-10px',marginRight:'-10px',color:'black',fontWeight:'600'}}>Individual</p>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Provide Assistance </span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Seek Assistance</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Get mentors for your ideas</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Grow your connections</li>
+                      </ul>
+                      </div>
+                    </div>
+                    <div style={{paddingBottom:'70px'}}/>
+                  </div>
+                  
+
+                </div>
+                </div>
+                 <div className="col-md-5" style={{width:'400px'}}>
+                  <div className="item">
+                    <div className="heading">
+                      <h3>Hire Talents</h3>
+                    </div>
+                    <div className="features">
+                    <div className="row" >
+                    <div className="column" style={{width:'50%',borderRight:'1px solid rgba(0,0,0,0.1)'}}>
+                      <ul>
+                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700'}}>For Startup</p>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Hire Startup friendly talents </span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Hire skillful interns</li>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Manage Application and get notifications</li>
+                        
+                      </ul>
+                    </div>
+                      <div className="column" style={{width:'48%'}}>
+                       <ul>
+                       <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',marginLeft:'-10px',marginRight:'12px',color:'black',fontWeight:'600'}}>For Individual</p>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Immense learning while working in startups</span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Jobs and Internships in startups</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Startups:place for your innovations</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>High exposure to cross functional works</li>
+                      </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div className="col-md-5" style={{width:'400px'}}>
+                  <div className="item">
+                    <div className="heading">
+                      <h3>Incubation</h3>
+                    </div>
+                    <div className="features">
+                    <div className="row" style={{borderBottom:'1px solid rgba(0,0,0,0.1)',marginLeft:0,marginRight:'0px'}} >
+                    <div className="column" style={{width:'50%',borderRight:'1px solid rgba(0,0,0,0.1)'}}>
+                      <ul>
+                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700',marginLeft:'-10px'}}>For Company</p>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Seek Assistance </span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Provide Assistance</li>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Brainstorm with experts</li>
+                        <li ><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Sort out issues in the best way</li>
+                      </ul>
+                    </div>
+                      <div className="column" style={{width:'48%'}}>
+                       <ul>
+                       <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',marginLeft:'-10px',marginRight:'-10px',color:'black',fontWeight:'600'}}>Individual</p>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i><span>Provide Assistance </span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Seek Assistance</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Get mentors for your ideas</li>
+                        <li><i class="fa fa-check" aria-hidden="true"style={{color:'#a521bd'}}></i>Grow your connections</li>
+                      </ul>
+                      </div>
+                    </div>
+                   
+                  </div>
+                </div>
+                </div>
+                <div className="col-md-5" style={{width:'400px'}}>
+                  <div className="item">
+                    <div className="heading">
+                      <h3>Incubation</h3>
+                    </div>
+                    <div className="features">
+                    <div className="row"  >
+                    <div className="column" style={{width:'100%'}} >
+                      <ul>
+                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700',marginRight:'13px'}}>For Entrepreneurs and Aspiring Entrepreneurs</p>
+                        <p style={{color:'black',marginLeft:'10px',marginRight:'15px',paddingBottom:'10px',borderBottom:'1px solid rgba(0,0,0,0.1',fontSize:'18px'}}>Here is everything you need to know for building innovative, better, sustainable and disruptive startup</p>
+                      </ul>
+                    </div>
+                    
+                      
+                    </div>
+                    <div style={{paddingTop:'28px'}}/>
+                    
+                  </div>
+                  
+
+                </div>
+                </div>
+              </div>
+            </div> 
+          </section>
           <section id="services">
             <div className="container">
               <div className="section-header">
@@ -299,79 +501,7 @@ class Home extends Component {
               </div>
             </div>
           </section>{/* #testimonials */}
-          <section id="pricing" className="pricing-table">
-            <div className="container">
-              <div className="section-header">
-                <h2>Pricing Table</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-              </div>
-            </div>
-            <div className="container">
-              <div className="row justify-content-md-center">
-                <div className="col-md-5 col-lg-4">
-                  <div className="item">
-                    <div className="heading">
-                      <h3>RESIDENTIAL</h3>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="features">
-                      <ul className="list">
-                        <li><span>Interior Design</span></li>
-                        <li>Project Discussion</li>
-                        <li>Space Planning</li>
-                        <li>Online Consultation</li>
-                      </ul>
-                    </div>
-                    <div className="price">
-                      <h4>$25</h4>
-                    </div>
-                    <button className="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
-                  </div>
-                </div>
-                <div className="col-md-5 col-lg-4">
-                  <div className="item">
-                    <div className="ribbon">Best</div>
-                    <div className="heading">
-                      <h3>COMMERCIAL</h3>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="features">
-                      <ul className="list">
-                        <li><span>Interior Design</span></li>
-                        <li>Project Discussion</li>
-                        <li>Space Planning</li>
-                        <li>Online Consultation</li>
-                      </ul>
-                    </div>
-                    <div className="price">
-                      <h4>$50</h4>
-                    </div>
-                    <button className="btn btn-block btn-primary" type="submit">BUY NOW</button>
-                  </div>
-                </div>
-                <div className="col-md-5 col-lg-4">
-                  <div className="item">
-                    <div className="heading">
-                      <h3>PROFESSIONAL</h3>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="features">
-                      <ul className="list">
-                        <li><span>Interior Design</span></li>
-                        <li>Project Discussion</li>
-                        <li>Space Planning</li>
-                        <li>Online Consultation</li>
-                      </ul>
-                    </div>
-                    <div className="price">
-                      <h4>$150</h4>
-                    </div>
-                    <button className="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </section>
+          
           {/*==========================
       Call To Action Section
     ============================*/}
@@ -516,27 +646,17 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div className="container mb-4 map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d387191.33750346623!2d-73.979681!3d40.6974881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1541477355474" width="100%" height={350} frameBorder={0} style={{border: 0}} allowFullScreen /> 
-            </div>
+            
           </section>{/* #contact */}
         </main>
         {/*==========================
     Footer
   ============================*/}
-        <footer id="footer">
-          <div className="container">
-            <div className="copyright">
-              © Copyright <strong>Housing</strong>. All Rights Reserved
-            </div>
-            <div className="credits"> 
-              Template by <a href="https://webthemez.com/consulting/">WebThemez</a>
-            </div>
-          </div>
-        </footer>
+        
       </div>   
        
         )
     }
 }
+
 export default Home;

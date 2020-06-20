@@ -37,8 +37,7 @@
 @import url('plugins/fontawesome/font-awesome.min.css');
 @import url('plugins/bootstrap/bootstrap.min.css');
 @import url('plugins/animate.css');
-body,
-p {
+body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -194,7 +193,6 @@ section {
 }
 
 .heading {
-    padding-bottom: 50px;
     margin-top: 10px;
     transition: all 0.3s ease 0s;
 }

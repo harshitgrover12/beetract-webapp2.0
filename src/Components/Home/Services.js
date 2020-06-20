@@ -38,7 +38,7 @@ const Services=()=>{
               </div>
             </div>
 
-            <h3 className="k7"style={{}}>Our Solutions </h3>
+            <h3 className="k7">Our Solutions </h3>
 
             <div className=' wow fadeInDown' data-wow-delay=".5s">
             <p className="k4">Form your Team! Get your enthusiastic Prelancer.</p>
