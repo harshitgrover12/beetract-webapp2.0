@@ -556,6 +556,7 @@ blockquote {
 
 .s1 {
     margin-left: 360px;
+    background-color: #7e7e7e;
 }
 
 .s2 {
@@ -566,11 +567,13 @@ blockquote {
 .s3 {
     margin-top: 5px;
     margin-left: 25px;
+    background-color: #7e7e7e;
 }
 
 .s4 {
     margin-top: 0px;
     margin-left: 360px;
+    background-color: #7e7e7e;
 }
 
 .s5 {

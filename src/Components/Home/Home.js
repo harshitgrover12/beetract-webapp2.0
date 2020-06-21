@@ -239,35 +239,24 @@ class Home extends Component {
                       </ul>
                       </div>
                     </div>
+                    <div className="row"  >
+                   
+                      <ul>
+                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700',marginRight:'13px'}}>For Entrepreneurs and Aspiring Entrepreneurs</p>
+                        <p style={{color:'black',marginLeft:'10px',marginRight:'15px',fontSize:'18px'}}>Here is everything you need to know for building innovative, better, sustainable and disruptive startup</p>
+                      </ul>
+                    
+                    
+                      
+                    </div>
                    
                   </div>
                 </div>
                 </div>
-                <div className="col-md-5 wow fadeInRight" style={{width:'400px'}}>
-                  <div className="item">
-                    <div className="heading">
-                      <h3>Incubation</h3>
-                    </div>
-                    <div className="features">
-                    <div className="row"  >
-                    <div className="column" style={{width:'100%'}} >
-                      <ul>
-                      <p style={{textAlign:'center',borderBottom:'1px solid rgba(0,0,0,0.1)',position:'relative',fontSize:'15px',padding:'0px',marginTop:'0px',color:'black',fontWeight:'700',marginRight:'13px'}}>For Entrepreneurs and Aspiring Entrepreneurs</p>
-                        <p style={{color:'black',marginLeft:'10px',marginRight:'15px',paddingBottom:'10px',borderBottom:'1px solid rgba(0,0,0,0.1',fontSize:'18px'}}>Here is everything you need to know for building innovative, better, sustainable and disruptive startup</p>
-                      </ul>
-                    </div>
-                    
-                      
-                    </div>
-                    <div style={{paddingTop:'28px'}}/>
-                    
-                  </div>
-                  
-
-                </div>
+               
                 </div>
               </div>
-            </div> 
+            
           </section>
 
 
