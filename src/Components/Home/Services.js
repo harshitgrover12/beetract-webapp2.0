@@ -18,7 +18,7 @@ const Services=()=>{
             <p className="k1" >Things you should know about startups. </p>
               <div className='service-content text-center'>
 
-                <div className="hexagon s1"><span><h3 style={{marginTop:'23px',color:'white',fontSize:'20px'}}>All about Projects</h3></span></div>
+                <div className="hexagon s1"><span><h3 style={{marginTop:'10px',color:'white',fontSize:'20px'}}>All about Projects</h3></span></div>
                
               </div>
             </div>
