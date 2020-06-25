@@ -40,7 +40,7 @@ class Home extends Component {
                 <li><a href="#ourSolutions">Solutions</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#portfolio">Get Support</a></li>
-                <li><a href="#pricing">SignIn/SignUp</a></li>	
+                <li><a href="/signIn">SignIn/SignUp</a></li>	
                 
               </ul>
             </nav>{/* #nav-menu-container */}

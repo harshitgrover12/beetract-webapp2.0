@@ -366,6 +366,9 @@ h6 {
     .hello4 {
         left: 40px !important;
     }
+    .hello5 {
+        display: none;
+    }
 }
 
 #intro .intro-content .btn-get-started,
