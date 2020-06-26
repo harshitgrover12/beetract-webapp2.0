@@ -54,8 +54,6 @@ this.props.history.push('/home');
    console.log(response);
   }).catch((err)=>alert(err));
       
-      
-
     this.props.history.push('/signIn');
     
   }
@@ -77,6 +75,7 @@ this.props.history.push('/home');
     render() {
         
         return (
+        <div className='SignIn'>
               <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
         <div className="card card0 border-0">
           <div className="row d-flex">
@@ -140,6 +139,7 @@ this.props.history.push('/home');
           </div>
          
         </div>
+      </div>
       </div>
         )
     }

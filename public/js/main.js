@@ -35,11 +35,13 @@ jQuery(document).ready(function($) {
         },
         speed: 400
     });
- 
+ console.log($('#nav-menu-container').length);
     if ($('#nav-menu-container').length) {
+
         var $mobile_nav = $('#nav-menu-container').clone().prop({
             id: 'mobile-nav'
         });
+      
         $mobile_nav.find('> ul').attr({
             'class': '',
             'id': ''

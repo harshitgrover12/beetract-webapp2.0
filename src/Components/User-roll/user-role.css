@@ -1,0 +1,64 @@
+#user-role-module {
+    color: black;
+    font-family: sans-serif;
+}
+
+#user-role-module #title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+#role-box {
+    padding: 20px;
+    box-shadow: 0 0 15px grey;
+    width: 350px;
+    margin: 10px;
+    transition: .3s ease-in-out;
+}
+
+#role-box:hover {
+    transform: scale(1.05);
+}
+
+#role-box-title span {
+    display: block;
+    font-size: 20px;
+}
+
+#role-box-title #bold {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.user-role-module-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#role-options {
+    margin-top: 30px;
+    font-weight: bold;
+    color: purple;
+}
+
+#role-options input[type='checkbox'] {
+    position: absolute;
+    transform: translate(0px, 4px);
+    cursor: pointer;
+    box-shadow: 3px 2px 4px 0px purple;
+}
+
+#role-options label {
+    display: block;
+    margin: 0;
+    margin-left: 20px;
+}
+
+#choose-option {
+    display: block;
+    font-size: 17px;
+    color: black;
+}
