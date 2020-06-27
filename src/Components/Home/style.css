@@ -37,7 +37,8 @@
 @import url('plugins/fontawesome/font-awesome.min.css');
 @import url('plugins/bootstrap/bootstrap.min.css');
 @import url('plugins/animate.css');
-body {
+body,
+p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -90,14 +91,6 @@ h5,
 .icon-xl {
     font-size: 200px;
     color: #A4215d;
-}
-
-.hexagon:hover {
-    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-    transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    transition: 0.4s;
 }
 
 .btn.btn-primary {
@@ -201,6 +194,7 @@ section {
 }
 
 .heading {
+    padding-bottom: 50px;
     margin-top: 10px;
     transition: all 0.3s ease 0s;
 }
@@ -327,7 +321,7 @@ blockquote {
     transform: skew(0deg, 2deg);
 }
 
-.portfolio.angle:before {
+.portfolio.angle:before. {
     background: #f5f5f5;
 }
 
@@ -347,7 +341,7 @@ blockquote {
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-attachment: fixed !important;
-    padding: 110px 0;
+    padding: 100px 0;
     color: #fff;
     position: relative;
 }
@@ -364,10 +358,11 @@ blockquote {
 
 .parallax-overlay {
     position: absolute;
-    left: 0;
+    left: -365px;
     top: 0;
-    width: 100%;
+    width: 200%;
     height: 100%;
+    background: #A4215d;
 }
 
 .parallax h3 {
@@ -379,7 +374,8 @@ blockquote {
 }
 
 .parallax2 {
-    background: no-repeat;
+    background: #A4215d;
+    background-size: cover;
 }
 
 .parallax3 {
@@ -564,7 +560,6 @@ blockquote {
 
 .s1 {
     margin-left: 360px;
-    background-color: #7e7e7e;
 }
 
 .s2 {
@@ -575,13 +570,11 @@ blockquote {
 .s3 {
     margin-top: 5px;
     margin-left: 25px;
-    background-color: #7e7e7e;
 }
 
 .s4 {
     margin-top: 0px;
     margin-left: 360px;
-    background-color: #7e7e7e;
 }
 
 .s5 {
@@ -593,7 +586,7 @@ blockquote {
     font-size: 20px;
     width: 200px;
     margin-top: 50px;
-    margin-left: 140px;
+    margin-left: 95px;
     font-weight: bold;
     color: black
 }
@@ -613,7 +606,7 @@ blockquote {
     font-size: 20px;
     width: 230px;
     margin-top: 45px;
-    margin-left: 50px;
+    margin-left: 15px;
     font-weight: bold;
     color: black;
 }
@@ -633,7 +626,7 @@ blockquote {
     font-size: 20px;
     width: 200px;
     margin-top: 50px;
-    margin-left: 180px;
+    margin-left: 95px;
     color: black;
     font-weight: bold;
 }
@@ -1709,9 +1702,9 @@ figure.effect-oscar:hover img {
 }
 
 .facts {
+    transition: all 300ms ease;
     position: relative;
     padding: 46px 40px 30px;
-    transition: all 300ms ease;
 }
 
 .facts:hover {
@@ -1747,7 +1740,7 @@ figure.effect-oscar:hover img {
 }
 
 .facts h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 8px;
     color: #fff;
 }
