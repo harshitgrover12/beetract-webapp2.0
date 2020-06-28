@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Nav from '../nav/nav';
 import './ProjectSpace.css';
+import Dash from '../dashboard/dash';
 class ProjectSpace extends Component {
     render() {
         return (
             <div>
-            <Nav/>
+            <Nav/><Dash/>
         <div className="container" style={{marginRight:'525px'}}>
             <div className="row justify-content-md-center ">
         <ul className="nav nav-pills">

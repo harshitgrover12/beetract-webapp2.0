@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from './beetractlogo.png';
+import Dash from '../dashboard/dash';
 
 const Nav=()=>{
     return(
