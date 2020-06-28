@@ -1,4 +1,4 @@
-.dashboard{
+.dashboard {
     display: block;
     color: white;
     margin-bottom: 20px;
@@ -6,48 +6,56 @@
     font-weight: bold;
 }
 
-.dashboard ul{
+.dashboard ul {
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: space-evenly;
-    background-color: purple;
+    background-color: #a4215d;
     padding: 5px;
 }
-.dashboard a{
+
+.dashboard a {
     color: white;
-    padding-bottom:5px ;
+    padding-bottom: 5px;
 }
-.dashboard a:hover{
+
+.dashboard a:hover {
     transition: .5s ease-in-out;
     text-decoration: none;
     color: white;
 }
-.dashboard a:focus{
+
+.dashboard a:focus {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-.dashboard li{
+
+.dashboard li {
     padding: 10px 20px;
     display: inline-block;
-    border: 2px solid rgb(161, 75, 161,0);
+    border: 2px solid rgb(161, 75, 161, 0);
     transition: .5s ease-in-out;
     margin: auto;
     border-radius: 15px;
 }
-.dashboard .dash-option:hover{
+
+.dashboard .dash-option:hover {
     border: 2px solid white;
 }
-.dash-option:focus{
+
+.dash-option:focus {
     border: 2px solid white;
 }
-.dashboard li button{
+
+.dashboard li button {
     color: black;
     padding: 10px;
     border: 0;
     border-radius: 15px;
     transition: .5s cubic-bezier();
 }
-.dashboard li button:active{
+
+.dashboard li button:active {
     transform: scale(0.9);
 }
