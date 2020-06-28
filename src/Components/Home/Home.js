@@ -116,7 +116,7 @@ class Home extends Component {
               </div>
               <div className="col-md-5 wow fadeInRight" style={{width:'400px'}}>
                 <div className="item">
-                  <div className="heading">
+                  <div className="heading" style={{paddingBottom:'0px'}}>
                     <h3>PreLancers</h3>
                   </div>
                   <div style={{borderBottom:'1px solid rgba(0,0,0,0.1)'}}>
@@ -124,7 +124,7 @@ class Home extends Component {
                                                         The No-pay enthusiasts need experience and certification in return.
                 </span>
                 </div>
-                <div style={{paddingBottom:'72px',borderBottom:'1px solid rgba(0,0,0,0.1)'}}/>
+                <div style={{paddingBottom:'10px',borderBottom:'1px solid rgba(0,0,0,0.1)'}}/>
                   <div className="features">
                   <div className="row" >
                   <div className="column" style={{width:'50%',borderRight:'1px solid rgba(0,0,0,0.1)'}}>
@@ -153,7 +153,7 @@ class Home extends Component {
               </div>
                 <div className="col-md-5 wow fadeInLeft" style={{width:'400px'}}>
                 <div className="item">
-                  <div className="heading">
+                  <div className="heading" style={{paddingBottom:'0px'}}>
                     <h3>Assistance</h3>
                   </div>
                   <div className="features">
@@ -177,7 +177,7 @@ class Home extends Component {
                     </ul>
                     </div>
                   </div>
-                  <div style={{paddingBottom:'70px'}}/>
+                  <div style={{paddingBottom:'62px'}}/>
                 </div>
                 
 
@@ -185,7 +185,7 @@ class Home extends Component {
               </div>
                 <div className="col-md-5 wow fadeInRight" style={{width:'400px'}}>
                 <div className="item">
-                  <div className="heading">
+                  <div className="heading" style={{paddingBottom:'0px'}}>
                     <h3>Hire Talents</h3>
                   </div>
                   <div className="features">
@@ -214,7 +214,7 @@ class Home extends Component {
               </div>
               <div className="col-md-5 wow fadeInLeft" style={{width:'400px'}}>
                 <div className="item">
-                  <div className="heading">
+                  <div className="heading" style={{paddingBottom:'0px'}}>
                     <h3>Incubation</h3>
                   </div>
                   <div className="features">

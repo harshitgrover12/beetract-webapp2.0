@@ -26,7 +26,7 @@ class ProjectSpace extends Component {
                     <div className="item "style={{border:'1px solid grey'}}  >
                 
                     
-                    <div className="features">
+                    <div className="features1">
                     <div className="row" >
                     <div className="column">
                     <ul>
@@ -53,7 +53,7 @@ class ProjectSpace extends Component {
                     <div className="item "style={{border:'1px solid grey'}}  >
                 
                     
-                    <div className="features">
+                    <div className="features1">
                     <div className="row" >
                     <div className="column">
                     <div style={{marginTop:'10px'}}>
@@ -85,7 +85,7 @@ class ProjectSpace extends Component {
                     <div className="item "style={{border:'1px solid grey'}}  >
                 
                     
-                    <div className="features">
+                    <div className="features1">
                     <div className="row" >
                     <div className="column">
                     <ul>
