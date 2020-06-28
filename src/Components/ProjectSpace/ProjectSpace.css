@@ -121,14 +121,6 @@
     line-height: 35px;
 }
 
-.pricing-table1 .col-md-5:not(:last-child) .item {
-    margin-bottom: 30px;
-}
-
-.pricing-table1 .col-md-5:(:last-child) .item {
-    margin-bottom: 30px;
-}
-
 .pricing-table1 .ribbon {
     width: 160px;
     height: 30px;
