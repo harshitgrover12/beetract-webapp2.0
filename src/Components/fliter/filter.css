@@ -25,6 +25,7 @@
 }
 .filter select{
     padding: 3px 10px;
+    outline: none;
 }
 .filter select{
     border-radius: 15px;
