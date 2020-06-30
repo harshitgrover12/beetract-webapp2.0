@@ -2,23 +2,35 @@ import React, { Component } from 'react'
 import Nav from '../nav/nav';
 import './ProjectSpace.css';
 import Dash from '../dashboard/dash';
+import Proposals from './Proposals/Proposals';
 class ProjectSpace extends Component {
+    state={
+        activeTab:'projects'
+    }
+    onButtonClick=(activeTab)=>{
+        this.setState({
+            activetab:activeTab
+        })
+    }
     render() {
         return (
             <div>
             <Nav/><Dash/>
-        <div className="container" style={{marginRight:'525px'}}>
+            <div className="container" style={{marginRight:'525px'}}>
             <div className="row justify-content-md-center ">
         <ul className="nav nav-pills">
-            <li className="active"><a href="#" className="h">Projects</a></li>
-            <li><a href="#" className="h">Proposals</a></li>
-            <li><a href="#" className="h">Timeline</a> </li>
-            <li><a href="#" className="h">Task Management</a></li>
-            <li><a href="#" className="h">Team</a></li>
-            <li><a href="#" className="h">Approvals</a></li>
+            <li  id="projects"className="active"><a href="#" className="h" onClick={()=>this.onButtonClick('projects')}>Projects</a></li>
+            <li><a id="proposals" href="#" className="h" onClick={()=>this.onButtonClick('proposals')}>Proposals</a></li>
+            <li><a   href="#" className="h" onClick={()=>this.onButtonClick('timeline')}>Timeline</a> </li>
+            <li><a id="taskmanagement" href="#" className="h" onClick={()=>this.onButtonClick('taskmanagement')}>Task Management</a></li>
+            <li><a   className="h" onClick={()=>this.onButtonClick('team')}>Team</a></li>
+            <li><a id="approvals" href="#" className="h" onClick={()=>this.onButtonClick('approvals')}>Approvals</a></li>
         </ul>
         </div>
         </div>
+        {this.state.activetab==='projects'?(
+            <div>
+        
         <section className="pricing-table1">
         <div className="container" >
             <div className="row justify-content-md-center ">
@@ -113,9 +125,13 @@ class ProjectSpace extends Component {
                     
         </div>
         </div>
-        </section>
+        
+        </section></div>):(<div/>)}
+        {
+            this.state.activetab==='proposals'?(<Proposals/>):(<div/>)
+        }
     </div>
-            
+        
 
         
         )

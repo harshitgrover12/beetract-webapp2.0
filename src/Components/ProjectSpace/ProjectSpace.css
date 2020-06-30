@@ -25,15 +25,40 @@
     height: 25px;
 }
 
+.pstyle {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.pstyle1 {
+    margin-left: 460px;
+    margin-top: 0px;
+    display: inline-block
+}
+
+.pstyle2 {
+    margin-left: 200px;
+    margin-top: 0px;
+    display: inline-block
+}
+
+.selecto1 {
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .button1 {
     background-color: #6bae3e;
+    font-size: 13px;
     /* Green */
     border: none;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    border-radius: 15px;
     width: 80px;
     height: 30px;
     left: 480px;
@@ -48,11 +73,44 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     width: 80px;
     height: 30px;
     position: relative;
     left: 10px;
+}
+
+.button3 {
+    background-color: #6bae3e;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    width: 80px;
+    height: 20px;
+    left: 240px;
+    position: relative;
+    border-radius: 15px;
+    ;
+}
+
+.button4 {
+    background-color: #a1a1a1;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 80px;
+    height: 20px;
+    left: 151px;
+    position: relative;
+    border-radius: 15px;
 }
 
 .pricing-table1 {
