@@ -113,6 +113,54 @@
     border-radius: 15px;
 }
 
+.button5 {
+    background-color: #579cdb;
+    font-size: 13px;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    width: 140px;
+    height: 30px;
+    left: 410px;
+    position: relative;
+}
+
+.button6 {
+    background-color: #6bae3e;
+    font-size: 13px;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    left: 750px;
+    position: relative;
+}
+
+.button7 {
+    background-color: #6bae3e;
+    font-size: 13px;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    left: 760px;
+    position: relative;
+}
+
 .pricing-table1 {
     background-color: #fff;
     padding: 0px 0;
