@@ -4,6 +4,7 @@ import axios from 'axios';
 class SignIn extends Component {
     constructor(props){
         super(props);
+        console.log(this.props);
     this.state={
             active:false
     }
@@ -22,14 +23,14 @@ class SignIn extends Component {
        
         
  
-axios.post('http://localhost:3000/api/auth/signin', {
-    username: this.state.username,
+axios.post('https://beetract.herokuapp.com/auth/login/', {
+    email: this.state.email,
     password:this.state.password
   })
   .then(data=>{
     console.log(data); 
 this.props.changelogin(true);
-this.props.history.push('/home');
+this.props.history.push('/roles');
    
   }).catch((err)=>{
       alert(err);
@@ -40,21 +41,22 @@ this.props.history.push('/home');
    
    
   e.preventDefault();
-   console.log(this.state.firstname);
+  
    console.log(this.state.email);
 
-     axios.post('http://localhost:3000/api/auth/signup', {
-    firstName:this.state.firstname,
-    lastName:this.state.lastname,
+     axios.post('http://beetract.herokuapp.com/auth/registration/', {
+    
     email: this.state.email,
-    username:this.state.username,
-    password:this.state.password,
+   
+    password1:this.state.password1,
+    password2:this.state.password2,
   })
-  .then(function (response) {
+  .then((response)=>{
    console.log(response);
+   this.props.history.push('/roles');
   }).catch((err)=>alert(err));
       
-    this.props.history.push('/signIn');
+    
     
   }
     
@@ -75,6 +77,7 @@ this.props.history.push('/home');
     render() {
         
         return (
+         
         <div className='SignIn'>
               <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
         <div className="card card0 border-0">
@@ -108,8 +111,8 @@ this.props.history.push('/home');
                 {this.state.active?(
                     <div>
                 <div className="row px-3"> <label className="mb-1">
-                    <h6 className="mb-0 text-sm">Username</h6>
-                  </label> <input className="mb-4" id="username" type="text" name="username" placeholder="Enter your username" ref={(input)=>this.username=input} onChange={this.handleChange}/> </div>
+                    <h6 className="mb-0 text-sm">Email</h6>
+                  </label> <input className="mb-4" id="email" type="text" name="email" placeholder="Enter your Email" ref={(input)=>this.email=input} onChange={this.handleChange}/> </div>
                 <div className="row px-3"> <label className="mb-1">
                     <h6 className="mb-0 text-sm">Password</h6>
                   </label> <input id="password" type="password" name="password" placeholder="Enter password" ref={(input)=>this.password=input}onChange={this.handleChange} /> </div>
@@ -127,7 +130,10 @@ this.props.history.push('/home');
                   </label> <input id="email" className="mb-4" type="text" name="email" placeholder="Enter a valid email address" ref={(input)=>this.email=input} onChange={this.handleChange} /> </div>
                 <div className="row px-3"> <label className="mb-1">
                     <h6 className="mb-0 text-sm">Password</h6>
-                  </label> <input id="password" type="password" name="password" placeholder="Enter password" ref={(input)=>this.password=input} onChange={this.handleChange} /> </div>
+                  </label> <input id="password1" type="password" name="password1" placeholder="Enter password" ref={(input)=>this.password1=input} onChange={this.handleChange} /> </div>
+                   <div className="row px-3"> <label className="mb-1">
+                    <h6 className="mb-0 text-sm">Password</h6>
+                  </label> <input id="password2" type="password" name="password2" placeholder="Confirmpassword" ref={(input)=>this.password2=input} onChange={this.handleChange} /> </div>
                 <div className="row px-3 mb-4">
                   <div className="custom-control custom-checkbox custom-control-inline"> <input id="chk1" type="checkbox" name="chk" className="custom-control-input" /> <label htmlFor="chk1" className="custom-control-label text-sm">Remember me</label> </div> 
                 </div>

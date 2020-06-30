@@ -9,14 +9,14 @@ import ProjectSpace from './Components/ProjectSpace/ProjectSpace';
     render() {
         return (
             <div>
-            <BrowserRouter>
+            
                 <Switch>
                     <Route exact path='/' render={(props)=><Home{...this.props}/>}/>
                     <Route exact path='/signIn' render={(props)=><SignIn{...this.props}/>}/>
                     <Route path='/roles' render={(props)=><User_role{...this.props}/>}/>
                     <Route path='/projects' render={(props)=><ProjectSpace{...this.props}/>}/>
                 </Switch>
-            </BrowserRouter>
+            
                 
             </div>
         )

@@ -1,9 +1,7 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './user-role.css';
 import Nav from '../nav/nav';
-const User_role=()=>{
-
-    const selAll=(e)=>{
+ const selAll=(e)=>{
         let name=e.name
         let checkboxes = document.getElementsByName(e.name);
         console.log(e);
@@ -11,8 +9,12 @@ const User_role=()=>{
         checkboxes[i].checked = e.checked;
     }
     }
+class User_role extends Component{
 
+   
+render()
 
+{
 
 
     return(
@@ -106,5 +108,6 @@ const User_role=()=>{
             </div>
         </div>
     )
+}
 }
 export default User_role;
