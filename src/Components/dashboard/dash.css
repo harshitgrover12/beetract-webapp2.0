@@ -4,6 +4,7 @@
     margin-bottom: 20px;
     font-size: 17px;
     font-weight: bold;
+    box-shadow: 0 7px 10px grey;
 }
 
 .dashboard ul {

@@ -3,6 +3,7 @@ import Nav from '../nav/nav';
 import './ProjectSpace.css';
 import Dash from '../dashboard/dash';
 import Proposals from './Proposals/Proposals';
+import Filter from '../fliter/filter';
 class ProjectSpace extends Component {
     state={
         activeTab:'projects'
@@ -12,10 +13,15 @@ class ProjectSpace extends Component {
             activetab:activeTab
         })
     }
+    componentDidMount(){
+        this.setState({
+            activetab:'projects'
+        })
+    }
     render() {
         return (
             <div>
-            <Nav/><Dash/>
+            <Nav/><Dash/><Filter/>
             <div className="container" style={{marginRight:'525px'}}>
             <div className="row justify-content-md-center ">
         <ul className="nav nav-pills">
