@@ -6,7 +6,7 @@ import Proposals from './Proposals/Proposals';
 import Filter from '../fliter/filter';
 class ProjectSpace extends Component {
     state={
-        activeTab:'projects'
+        activetab:'projects'
     }
     onButtonClick=(activeTab)=>{
         this.setState({

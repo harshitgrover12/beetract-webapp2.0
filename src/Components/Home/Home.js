@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Services from './Services';
 import AboutUs from './AboutUs';
 import img from './clouds.png';
-import img1 from './beetractlogo.png';
+import img1 from './new_logo.png';
 import img2 from './BeeTract_Home1.png';
 import Intro from './Intro';
 
