@@ -6,6 +6,7 @@ import Proposals from './Proposals/Proposals';
 import Filter from '../fliter/filter';
 import ProjectTab from './ProjectTab/ProjectTab';
 import TimelineTab from './TimelineTab/TimelineTab';
+import Task from './Task/Task.js';
 class ProjectSpace extends Component {
     state={
         activetab:'projects'
@@ -31,7 +32,7 @@ class ProjectSpace extends Component {
             <li><a id="proposals" href="#" className="h" onClick={()=>this.onButtonClick('proposals')}>Proposals</a></li>
             <li><a   href="#" className="h" onClick={()=>this.onButtonClick('timeline')}>Timeline</a> </li>
             <li><a id="taskmanagement" href="#" className="h" onClick={()=>this.onButtonClick('taskmanagement')}>Task Management</a></li>
-            <li><a   className="h" onClick={()=>this.onButtonClick('team')}>Team</a></li>
+            <li><a  href="#" className="h" onClick={()=>this.onButtonClick('team')}>Team</a></li>
             <li><a id="approvals" href="#" className="h" onClick={()=>this.onButtonClick('approvals')}>Approvals</a></li>
         </ul>
         </div>
@@ -46,6 +47,9 @@ class ProjectSpace extends Component {
         }
         {
             this.state.activetab==='timeline'?(<TimelineTab/>):(<div/>)
+        }
+        {
+            this.state.activetab==='taskmanagement'?(<Task/>):(<div/>)
         }
     </div>
         

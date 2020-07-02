@@ -160,6 +160,20 @@
     left: 760px;
     position: relative;
 }
+.button8 {
+    background-color: #a4215d;
+    font-size: 13px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    width: 140px;
+    height: 30px;
+    left: 410px;
+    position: relative;
+}
 
 .pricing-table1 {
     background-color: #fff;

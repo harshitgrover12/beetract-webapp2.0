@@ -10,6 +10,8 @@
         "babel-plugin-react-css-modules": "^5.2.6",
         "classnames": "^2.2.6",
         "react": "^16.13.1",
+        "react-axios": "^2.0.3",
+        "react-bootstrap": "^1.0.1",
         "react-css-modules": "^4.7.11",
         "react-dom": "^16.13.1",
         "react-horizontal-timeline": "^1.5.3",
