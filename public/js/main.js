@@ -73,6 +73,10 @@ jQuery(document).ready(function($) {
                 }
             }
         });
+          $('#menu1 ul li a').click(function(e) {
+                  $('#menu1 ul li').removeClass('active');
+                    $(e.currentTarget).parent('li').addClass('active');
+        });
     } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
         $("#mobile-nav, #mobile-nav-toggle").hide();
     }

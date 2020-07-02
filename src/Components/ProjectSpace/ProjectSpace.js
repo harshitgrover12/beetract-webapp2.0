@@ -27,14 +27,16 @@ class ProjectSpace extends Component {
             <Nav/><Dash/><Filter/>
             <div className="container" style={{marginRight:'525px'}}>
             <div className="row justify-content-md-center ">
+            <div id="menu1">
         <ul className="nav nav-pills">
-            <li  id="projects"className="active"><a href="#" className="h" onClick={()=>this.onButtonClick('projects')}>Projects</a></li>
-            <li><a id="proposals" href="#" className="h" onClick={()=>this.onButtonClick('proposals')}>Proposals</a></li>
-            <li><a   href="#" className="h" onClick={()=>this.onButtonClick('timeline')}>Timeline</a> </li>
-            <li><a id="taskmanagement" href="#" className="h" onClick={()=>this.onButtonClick('taskmanagement')}>Task Management</a></li>
-            <li><a  href="#" className="h" onClick={()=>this.onButtonClick('team')}>Team</a></li>
-            <li><a id="approvals" href="#" className="h" onClick={()=>this.onButtonClick('approvals')}>Approvals</a></li>
+            <li  className="active"><a href="#" id="projects" className="h" onClick={()=>this.onButtonClick('projects')}>Projects</a></li>
+            <li className=""><a id="proposals" href="#" className="h" onClick={()=>this.onButtonClick('proposals')}>Proposals</a></li>
+            <li className=""><a   href="#" className="h" onClick={()=>this.onButtonClick('timeline')}>Timeline</a> </li>
+            <li className=""><a id="taskmanagement" href="#" className="h" onClick={()=>this.onButtonClick('taskmanagement')}>Task Management</a></li>
+            <li className=""><a  href="#" className="h" onClick={()=>this.onButtonClick('team')}>Team</a></li>
+            <li className=""><a id="approvals" href="#" className="h" onClick={()=>this.onButtonClick('approvals')}>Approvals</a></li>
         </ul>
+        </div>
         </div>
         </div>
         {this.state.activetab==='projects'?(
