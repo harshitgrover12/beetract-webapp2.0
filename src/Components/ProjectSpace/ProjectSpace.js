@@ -7,6 +7,7 @@ import Filter from '../fliter/filter';
 import ProjectTab from './ProjectTab/ProjectTab';
 import TimelineTab from './TimelineTab/TimelineTab';
 import Task from './Task/Task.js';
+import Team from './Team/team';
 class ProjectSpace extends Component {
     state={
         activetab:'projects'
@@ -52,6 +53,9 @@ class ProjectSpace extends Component {
         }
         {
             this.state.activetab==='taskmanagement'?(<Task/>):(<div/>)
+        }
+        {
+            this.state.activetab==='team'?(<Team/>):(<div/>)
         }
     </div>
         
