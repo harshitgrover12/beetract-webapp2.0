@@ -8,6 +8,7 @@ import ProjectTab from './ProjectTab/ProjectTab';
 import TimelineTab from './TimelineTab/TimelineTab';
 import Task from './Task/Task.js';
 import Team from './Team/team';
+import Approvals from './Approvals/Approvals'
 class ProjectSpace extends Component {
     state={
         activetab:'projects'
@@ -56,6 +57,9 @@ class ProjectSpace extends Component {
         }
         {
             this.state.activetab==='team'?(<Team/>):(<div/>)
+        }
+        {
+            this.state.activetab==='approvals'?(<Approvals/>):(<div/>)
         }
     </div>
         

@@ -13,7 +13,7 @@ const Team=()=>{
     }]
 
     return(
-        <div className='team'>
+        <div className='team wow anim fadeInLeft' >
             <div id='team-table'>
                 <table>
                     <tr>

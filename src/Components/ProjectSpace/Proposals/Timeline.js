@@ -3,7 +3,7 @@ import './Timeline.css'
  const Timeline=()=>{
      return(
 <div id="timeline-wrap">
-  <div id="timeline" />
+  <div id="timeline" style={{width:'60%'}}/>
   {/* This is the individual marker*/}<h1 style={{display:'inline-block',fontSize:'18px',top:'-30px',position:'absolute',marginLeft:'10px',fontWeight:'800'}}>%</h1>
   <div className="marker mfirst timeline-icon one">
   0
