@@ -72,7 +72,7 @@ class Home extends Component {
   <section id="howItWorks" className="pricing-table">
           <div className="container">
             <div className="section-header">
-              <h2>How It works</h2>
+              <h2>How it works</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
             </div>
           </div>

@@ -11,7 +11,7 @@ License: https://webthemez.com/license
 
 body {
     background: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
@@ -502,7 +502,8 @@ h6 {
 }
 
 
-/* Nav Meu Container */
+/* Nav Meu 
+ */
 
 #nav-menu-container {
     float: right;
@@ -735,8 +736,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-    padding: 60px 0 60px 0;
+    padding: 40px 0 40px 0;
 }
+
 
 #about .about-img {
     overflow: hidden;
@@ -1433,10 +1435,16 @@ p.help-block li {
     opacity: 0.7;
 }
 
-.pricing-table .heading {
+.pricing-table .heading  {
     text-align: center;
     margin-top: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+.pricing-table .heading h3 {
+    text-transform: capitalize;
+    
 }
 
 .pricing-table .item {
@@ -1448,7 +1456,8 @@ p.help-block li {
 
 .pricing-table .item:hover {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.6);
+    background: white;
+    transform: scale(1.05);
 }
 
 .features ul {

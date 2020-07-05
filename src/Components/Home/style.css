@@ -181,6 +181,7 @@ section {
     position: relative;
 }
 
+
 .ts-padding {
     padding: 50px;
 }
@@ -587,7 +588,6 @@ blockquote {
     width: 200px;
     margin-top: 50px;
     margin-left: 95px;
-    font-weight: bold;
     color: black
 }
 
@@ -597,7 +597,6 @@ blockquote {
     width: 200px;
     margin-top: 50px;
     margin-left: 180px;
-    font-weight: bold;
     color: black;
 }
 
@@ -607,7 +606,6 @@ blockquote {
     width: 230px;
     margin-top: 45px;
     margin-left: 15px;
-    font-weight: bold;
     color: black;
 }
 
@@ -617,7 +615,6 @@ blockquote {
     width: 230px;
     margin-top: 20px;
     margin-left: 200px;
-    font-weight: bold;
     color: black;
 }
 
@@ -628,7 +625,7 @@ blockquote {
     margin-top: 50px;
     margin-left: 95px;
     color: black;
-    font-weight: bold;
+    
 }
 
 .k6 {
@@ -637,7 +634,6 @@ blockquote {
     width: 230px;
     margin-top: 25px;
     margin-left: 180px;
-    font-weight: bold;
     color: black;
 }
 
@@ -1427,7 +1423,8 @@ blockquote {
 
 .landing-tab .nav-link.active {
     background: transparent;
-    color: #626262;
+    color: #A4215d;
+    
 }
 
 .landing-tab .nav-link.active::before {

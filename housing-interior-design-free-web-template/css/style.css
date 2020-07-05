@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
@@ -1355,8 +1355,10 @@ p.help-block li {
     text-align: center;
     padding: 4px;
     font-size: 15px;
-    color: #7d7d7d;
+    color: white;
 }
+
+
 
 .pricing-table .col-md-5:not(:last-child) .item {
     margin-bottom: 30px;
@@ -1418,4 +1420,3 @@ p.help-block li {
     padding: 9px 0;
 }
 
-B
