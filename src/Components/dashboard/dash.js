@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 const Dash=()=>{
     return(
         <div className='dashboard'>
-            <ul><li className='dash-normal'>
-                    <span>Dashboard</span>
+            <ul>
+                <li className='dash-option'>
+                    <Link to="/dash"><a>DashBoard</a></Link>
                 </li>
                 <li className='dash-option'>
                     <Link to="/projects"><a>My Project</a></Link>

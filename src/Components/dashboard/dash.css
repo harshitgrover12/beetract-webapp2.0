@@ -33,7 +33,7 @@
 }
 
 .dashboard li {
-    padding: 10px 20px;
+    padding: 5px 20px;
     display: inline-block;
     border: 2px solid rgb(161, 75, 161, 0);
     transition: .5s ease-in-out;
@@ -51,7 +51,7 @@
 
 .dashboard li button {
     color: black;
-    padding: 10px;
+    padding: 5px;
     border: 0;
     border-radius: 15px;
     transition: .5s cubic-bezier();

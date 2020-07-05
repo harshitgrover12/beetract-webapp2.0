@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import SignIn from './Components/SignIn/SignIn';
 import User_role from './Components/User-roll/user-role';
 import ProjectSpace from './Components/ProjectSpace/ProjectSpace';
+import Dashboard from './Components/dash/dash';
 
  class Routes extends Component {
     render() {
@@ -15,6 +16,7 @@ import ProjectSpace from './Components/ProjectSpace/ProjectSpace';
                     <Route exact path='/signIn' render={(props)=><SignIn{...this.props}/>}/>
                     <Route path='/roles' render={(props)=><User_role{...this.props}/>}/>
                     <Route path='/projects' render={(props)=><ProjectSpace{...this.props}/>}/>
+                    <Route path='/dash' render={(props)=><Dashboard{...this.props}/>}/>
                 </Switch>
             
                 
