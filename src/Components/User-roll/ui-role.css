@@ -1,0 +1,78 @@
+.ui-role{
+}
+#ui-roles-box img{
+    height: 200px;
+    width: 250px;
+}
+.ui-main-title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.ui-main-title img{
+    height: 300px;
+    width: auto;    
+}
+#ui-roles-title{
+    font-weight: bolder;
+    margin: auto 0;
+    margin-right: 50px;
+}
+#ui-role-span{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+#ui-roles-box{
+    margin: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 15px lightslategray;
+    width: fit-content;
+    cursor: pointer;
+}
+#ui-roles-options{
+    display: flex;
+    margin-top: 15vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 50vh;
+}
+#role-options-ui{
+    display: block;
+}
+#choose-option-ui{
+    font-weight: bold;
+    font-size: large;
+    color: #A5215D;
+}
+input[type='checkbox']{
+    position: absolute;
+    transform: translate(0px, -2px);
+    display: block;
+}
+label{
+    display: block;
+    font-size: 13px;
+    margin-left:15px ;
+}
+#ui-title-options-ind,#ui-title-options-bus,#ui-title-options-inc{
+    margin-top: 20px;
+    display: none;
+    transition: 1s ease;
+}
+#option-button{
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    font-size: large;
+    color: white;
+    background-color: #A5215D;
+    padding: 10px;
+    font-weight: bold;
+    transition: .3s ease;
+}
+#option-button:hover{
+    transform: scale(0.9);
+}

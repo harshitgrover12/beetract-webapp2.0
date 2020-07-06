@@ -44,10 +44,8 @@ this.props.history.push('/roles');
   
    console.log(this.state.email);
 
-     axios.post('http://beetract.herokuapp.com/auth/registration/', {
-    
+  axios.post('http://beetract.herokuapp.com/auth/registration/', {
     email: this.state.email,
-   
     password1:this.state.password1,
     password2:this.state.password2,
   })
