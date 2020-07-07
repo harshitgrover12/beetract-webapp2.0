@@ -43,6 +43,7 @@ h6 {
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
+    text-transform: none;
 }
 
 
@@ -739,7 +740,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 40px 0 40px 0;
 }
 
-
 #about .about-img {
     overflow: hidden;
 }
@@ -1435,16 +1435,14 @@ p.help-block li {
     opacity: 0.7;
 }
 
-.pricing-table .heading  {
+.pricing-table .heading {
     text-align: center;
     margin-top: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    
 }
 
 .pricing-table .heading h3 {
     text-transform: capitalize;
-    
 }
 
 .pricing-table .item {
@@ -1459,7 +1457,7 @@ p.help-block li {
     background: white;
     transform: scale(1.05);
     transition: 0.3s;
-    box-shadow:0px 6px 10px #acacac;
+    box-shadow: 0px 6px 10px #acacac;
 }
 
 .features ul {

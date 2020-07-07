@@ -181,7 +181,6 @@ section {
     position: relative;
 }
 
-
 .ts-padding {
     padding: 50px;
 }
@@ -570,7 +569,7 @@ blockquote {
 
 .s3 {
     margin-top: 5px;
-    margin-left: 25px;
+    margin-left: 55px;
 }
 
 .s4 {
@@ -614,7 +613,7 @@ blockquote {
     font-size: 20px;
     width: 230px;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 240px;
     color: black;
 }
 
@@ -625,7 +624,6 @@ blockquote {
     margin-top: 50px;
     margin-left: 95px;
     color: black;
-    
 }
 
 .k6 {
@@ -1424,7 +1422,6 @@ blockquote {
 .landing-tab .nav-link.active {
     background: transparent;
     color: #A4215d;
-    
 }
 
 .landing-tab .nav-link.active::before {

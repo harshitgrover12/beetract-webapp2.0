@@ -95,9 +95,9 @@ const Ui_roles=()=>{
                 <div id='ui-roles-title'>
                     CHOOSE YOUR <span style={{color:'#A5215D'}}>ROLE</span>
                 </div>
-                <div id='ui-roles-title-art'>
+                {/* <div id='ui-roles-title-art'>
                     <img id='ui-logo' src={logo} alt=''/>
-                </div>
+                </div> */}
             </div>
             <div id='ui-roles-options' >
                 <div id='ui-roles-box' onMouseOver={e=>{
