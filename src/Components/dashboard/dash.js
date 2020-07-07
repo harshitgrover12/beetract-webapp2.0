@@ -16,7 +16,7 @@ const Dash=()=>{
                     <Link><a>Bids Received</a></Link>
                 </li>
                 <li className='dash-option'>
-                    <Link><a>Bid on a project</a></Link>
+                    <Link to="/projectdetails"><a>Bid on a project</a></Link>
                 </li>   
                 <li className='dash-normal'>
                     <button>

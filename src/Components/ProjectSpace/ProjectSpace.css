@@ -20,11 +20,39 @@
     background: black;
 }
 
+.pricing-table1 .projectdetailbox {
+    height: 80px;
+    background-color: black;
+    margin: 0 5px 0;
+    max-width: 100%;
+    padding-left: 0px;
+}
+
+
+
+.projectdetailbutton {
+    color: #a1a1a1;
+    font-size: 18px;
+    margin-block-start: 50px;
+    background-color: black;
+    border: solid 0px black;
+}
+
+.projectdetailbutton:hover,
+.projectdetailbutton:active {
+    color: #fff;
+}
+
 .selecto {
     width: 200px;
     height: 25px;
 }
 
+.selecto1 {
+    width: 290px;
+    height: 480px;
+    background-color: #fff;
+}
 .pstyle {
     margin-left: 20px;
     margin-top: 20px;
@@ -182,6 +210,12 @@
     margin-top: 5px;
 }
 
+.pricing-table1 .container {
+    max-width: 1500px;
+    width: 100%;
+    background-color: #e9e3e3;
+}
+
 .pricing-table1 .block-heading {
     padding-top: 10px;
     margin-bottom: 40px;
@@ -229,17 +263,39 @@
 }
 
 .features1 ul {
-    padding: 0;
+    padding: 10px;
     margin-left: 11px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .features1 ul li {
-    margin-left: 10px;
+    margin-left: 11px;
     list-style: none;
-    text-align: left;
     font-size: 15px;
-    color: black;
+    color: #837f7f;
     line-height: 35px;
+}
+
+.features2 ul{
+    padding: 10px;
+    margin-left: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 300px;
+}
+
+.features2 ul li {
+    margin-left: 11px;
+    list-style: none;
+    font-size: 15px;
+    color: #837f7f;
+    line-height: 35px;
+}
+
+.features2 p {
+    text-align: start;
+    padding-left: 30px;
 }
 
 .pricing-table1 .ribbon {
