@@ -28,8 +28,6 @@
     padding-left: 0px;
 }
 
-
-
 .projectdetailbutton {
     color: #a1a1a1;
     font-size: 18px;
@@ -53,6 +51,7 @@
     height: 480px;
     background-color: #fff;
 }
+
 .pstyle {
     margin-left: 20px;
     margin-top: 20px;
@@ -93,6 +92,21 @@
     position: relative;
 }
 
+.button9 {
+    background-color: #a5215d;
+    font-size: 13px;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    width: 180px;
+    height: 30px;
+    margin-left: 0px;
+}
+
 .button2 {
     background-color: #6bae3e;
     /* Green */
@@ -123,7 +137,6 @@
     left: 240px;
     position: relative;
     border-radius: 7px;
-    ;
 }
 
 .button4 {
@@ -205,6 +218,22 @@
     position: relative;
 }
 
+.button10 {
+    background-color: #6bae3e;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    margin-left: 850px;
+    position: relative;
+    border-radius: 7px;
+}
+
 .pricing-table1 {
     background-color: #fff;
     padding: 0px 0;
@@ -278,7 +307,7 @@
     line-height: 35px;
 }
 
-.features2 ul{
+.features2 ul {
     padding: 10px;
     margin-left: 11px;
     font-size: 20px;

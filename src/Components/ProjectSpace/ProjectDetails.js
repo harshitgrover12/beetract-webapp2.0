@@ -19,7 +19,7 @@ const ProjectDetails=()=>{
         </div>
             <div className="row justify-content-md-start" style={{marginLeft:'5px',marginRight:'5px'}}>
             
-                <div className="wow anim fadeInLeft" style={{width:'1150px',marginTop:'15px'}} >
+                <div className="wow anim fadeInLeft" style={{width:'1000px',marginTop:'15px'}} >
                     <div className="item " >
                     <div className="features2">
 
@@ -47,7 +47,7 @@ const ProjectDetails=()=>{
                     </div>
                     </div>
                     
-                    <div className="wow anim fadeInLeft" style={{width:'1150px',marginRight:'100px',paddingTop:'10px'}} >
+                    <div className="wow anim fadeInLeft" style={{width:'1000px',marginRight:'100px',paddingTop:'10px'}} >
                     
                     <div className="item ">
                     
@@ -64,6 +64,39 @@ const ProjectDetails=()=>{
                     </div>
                     <div style={{marginTop:'10px',marginLeft:'20px',fontWeight:'bold',fontSize:'18px',marginBottom:'10px',paddingTop:'10px'}}>
                     Bid Details
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px',display:'inline-block'}}>
+                    Bid Amount
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'135px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px',display:'inline-block'}}>
+                    This project will be delivered in
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
+                    <input type="text" placeholder="Your bid" style={{display:'inline-block'}}></input>
+                    <input type="text"  style={{display:'inline-block',marginLeft:'20px',width:'300px'}}></input>
+                    <p style={{marginTop:'10px'}}> paid to you:$55.0 fee=49.5$</p>
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
+                     Describe Your Proposal
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
+                     <textarea class="form-control" id="describeProposal" rows="7" placeholder="What makes you the best candidate for this project? " style={{border:'2px solid #e9eaea',width:'900px'}}></textarea>
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
+                     Suggest a milestone
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
+                     <p> Define the tasks that you will complete for this</p>
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
+                    <input type="text" placeholder="Project Milestone" style={{display:'inline-block'}}></input>
+                    <input type="text" placeholder="Your bid" style={{display:'inline-block',marginLeft:'20px'}}></input> 
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
+                     <button className="button9"> Add another milestone</button>
+                    </div>
+                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px',paddingBottom:'20px'}}>
+                     <button className="button10">Place Bid</button>
                     </div>
                     </div>
                     
