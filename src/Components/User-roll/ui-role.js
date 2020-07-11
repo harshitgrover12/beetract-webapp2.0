@@ -21,15 +21,17 @@ const Individual=(props)=>{
     const handleChange=(e)=>{
         console.log(e.checked);
         let roles=[...props.roles];
+        let sid=e.id;
+        
         if(e.checked)
         {
-         roles=[...props.roles,e.id];
+         roles=[...props.roles,sid[0]-'0'];
          props.changeroles(roles);
         }
         else
         {let roles1=[];
             roles.map((value)=>{
-                if(value!==e.id)
+                if(value!==(sid[0]-'0'))
                 {
                     roles1=[...roles1,value]
                 }
@@ -40,18 +42,20 @@ const Individual=(props)=>{
     }
     const handleSubmit=(e)=>{
         e.preventDefault();
-        console.log(props.token);
-        let headers={
-            Authorization:"Token "+props.token
-        }
-        console.log(headers)
-        axios.post('https://beetract.herokuapp.com/users/select-roles/',
-       { roles:props.roles
-       },
-        {
-            Authorization:"Token "+props.token
-        }
-        ).then((res)=>console.log(res)).catch((err)=>alert(err));
+        axios({
+    method: "POST",
+    url: `https://beetract.herokuapp.com/users/select-roles/`,
+    data: {
+        roles: props.roles
+    },
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      Authorization: `Token ${props.token}`,
+    },
+  })
+  .then((res)=>console.log(res))
+  .catch((err)=>alert(err))
     }
   
     return(
