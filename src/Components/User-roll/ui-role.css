@@ -4,7 +4,8 @@
     height: 200px;
     width: 250px;
 }
-.ui-main-title{
+.ui-main-title{   
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     font-size: 30px;
