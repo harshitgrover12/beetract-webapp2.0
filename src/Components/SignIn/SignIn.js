@@ -27,8 +27,9 @@ axios.post('https://beetract.herokuapp.com/auth/login/', {
     email: this.state.email,
     password:this.state.password
   })
-  .then(data=>{
-    console.log(data); 
+  .then(({data})=>{
+    console.log(data.key); 
+    this.props.changetoken(data.key);
 this.props.changelogin(true);
 this.props.history.push('/roles');
    

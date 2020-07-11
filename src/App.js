@@ -15,6 +15,7 @@ class App extends Component {
 const mapStateToProps = state => {
   return {
      isauthenticated:state.isauthenticated,
+     roles:state.roles
     
   };
 };
@@ -24,6 +25,14 @@ const mapDispatchToProps = dispatch => {
     changelogin: (isauthenticated) => dispatch({
       type:'LOGIN',
       isauthenticated:isauthenticated
+    }),
+    changeroles:(roles)=>dispatch({
+      type:'ROLES',
+      roles:roles
+    }),
+    changetoken:(token)=>dispatch({
+      type:'TOKEN',
+      token:token
     })
     }}
 export default compose(
