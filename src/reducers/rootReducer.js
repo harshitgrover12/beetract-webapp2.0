@@ -1,7 +1,7 @@
 const initState={
     isauthenticated:true,
     roles:[],
-    token:null
+    token:""
    
 }
 const rootReducer=(state=initState,action)=>{

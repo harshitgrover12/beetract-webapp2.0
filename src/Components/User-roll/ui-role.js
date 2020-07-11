@@ -9,6 +9,7 @@ import Nav from '../nav/nav';
 import axios from 'axios';
   
 const Individual=(props)=>{
+    console.log(props);
     const selAll=(e)=>{
         console.log(e);
         let name=e.name
@@ -38,6 +39,12 @@ const Individual=(props)=>{
         
     }
     const handleSubmit=(e)=>{
+        e.preventDefault();
+        console.log(props.token);
+        let headers={
+            Authorization:"Token "+props.token
+        }
+        console.log(headers)
         axios.post('https://beetract.herokuapp.com/users/select-roles/',
        { roles:props.roles
        },
@@ -99,6 +106,7 @@ const Business=(props)=>{
         
     }
       const handleSubmit=(e)=>{
+          e.preventDefault();
         axios.post('https://beetract.herokuapp.com/users/select-roles/',
        { roles:props.roles
        },
@@ -147,6 +155,7 @@ const Incubation=(props)=>{
         
     }
       const handleSubmit=(e)=>{
+          e.preventDefault();
         axios.post('https://beetract.herokuapp.com/users/select-roles/',
        { roles:props.roles
        },
