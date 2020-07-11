@@ -22,26 +22,37 @@ const Individual=(props)=>{
         console.log(e.checked);
         let roles=[...props.roles];
         let sid=e.id;
+        let digit=0;
+        if(sid.length===1)
+        {
+            digit=sid[0]-'0';
+        }
+        else
+        {
+            digit=(sid[0]-'0')*10 +(sid[1]-'0');
+        }
         
         if(e.checked)
         {
-         roles=[...props.roles,sid[0]-'0'];
+         roles=[...props.roles,digit];
          props.changeroles(roles);
         }
         else
         {let roles1=[];
             roles.map((value)=>{
-                if(value!==(sid[0]-'0'))
+                if(value!==(digit))
                 {
                     roles1=[...roles1,value]
                 }
             })
+
             props.changeroles(roles1);
         }
         
     }
     const handleSubmit=(e)=>{
         e.preventDefault();
+        console.log(props.roles);
         axios({
     method: "POST",
     url: `https://beetract.herokuapp.com/users/select-roles/`,
