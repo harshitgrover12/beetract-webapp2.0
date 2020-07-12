@@ -4,6 +4,7 @@ import './ProjectSpace.css';
 import Dash from '../dashboard/dash';
 import {Divider} from '@material-ui/core';
 import { green } from '@material-ui/core/colors';
+import Box from '@material-ui/core/Box';
 
 const ProjectDetails=()=>{
     return(
@@ -19,46 +20,50 @@ const ProjectDetails=()=>{
         </div>
             <div className="row justify-content-md-start" style={{marginLeft:'5px',marginRight:'5px'}}>
             
-                <div className="wow anim fadeInLeft" style={{width:'1000px',marginTop:'15px'}} >
-                    <div className="item " >
+                <div className="wow anim fadeInLeft" style={{width:'1100px',marginTop:'15px'}} >
+                    <div className="item ">
                     <div className="features2">
 
-                    <div className="row" >
-                    <div className="column">
+                   
                     
-                    <ul>
+                    <ul style={{paddingTop:"30px",fontSize:"25px"}}>
                         Project Details
-                        
+                
                     </ul>
                     
-                    <div className="rightside">
-                        <ul>
+                    <div className="rightside1">
+                    <ul>
                     <span>$10.00 - 100.00 USD</span>
-                    
                     <br/>
-                    
                     <li><i class="fa fa-clock-o"></i>  Bidding ends in 5 days,19 hours</li>
                     </ul>
+                    </div>
+
+                    <Divider/>
+                    <p style={{marginTop:'10px',paddingLeft:"10px",marginLeft:"10px"}}>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+
+                    <div style={{fontSize:"18px",fontWeight:"bold",paddingLeft:"10px",marginLeft:"10px"}}>Skills Required</div>
+
+                    <div className="skillbox">
+                        <ul>
+                            <li>Marketing</li>
+                            <li>Business Plans</li>
+                            <li>Marketing Strategy</li>
+                        </ul>
+                    </div>
+
+                    <div style={{marginLeft:'15px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingBottom:'20px'}}>
+                     <button className="button10">Place Bid</button>
+                    </div>
                     
                     </div>
-                    <p style={{marginTop:'10px'}}>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
-                    </div>
-                    </div>
-                    </div>
+                    
                     </div>
                     
-                    <div className="wow anim fadeInLeft" style={{width:'1000px',marginRight:'100px',paddingTop:'10px'}} >
+                    <div className="wow anim fadeInLeft" style={{width:'1100px',marginRight:'100px'}} >
                     
                     <div className="item ">
                     
-                    <div className="features2">
-                    
-                    
-                    <div style={{marginTop:'10px',marginLeft:'20px',fontWeight:'bold',fontSize:'20px',marginBottom:'10px',paddingTop:'10px'}}>
-                    Place a Bid on this Project
-                    </div>
-                    </div>
-                    <Divider/>
                     <div style={{paddingTop:'10px',textAlign:'start',paddingLeft:'15px'}}>
                     <p>You will be able to bid until project is awarded to someone.</p>
                     </div>
@@ -95,9 +100,7 @@ const ProjectDetails=()=>{
                     <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px'}}>
                      <button className="button9"> Add another milestone</button>
                     </div>
-                    <div style={{marginTop:'5px',marginLeft:'20px',fontWeight:'bold',fontSize:'14px',marginBottom:'10px',paddingTop:'5px',paddingBottom:'20px'}}>
-                     <button className="button10">Place Bid</button>
-                    </div>
+                    
                     </div>
                     
                 </div>
@@ -107,7 +110,7 @@ const ProjectDetails=()=>{
                     <div className="col-md-1 wow anim fadeInLeft" >
                         
                             <div className="selecto1" style={{marginTop:'15px'}}>
-                            <div className="features1">
+                            <div className="features3">
                             
                             <ul>
                             About Employer
@@ -122,9 +125,6 @@ const ProjectDetails=()=>{
                                 Employer Verification
                                 <Divider/>
                                 <li><i class="fa fa-id-badge" style={{ color: green[500]}} ></i>  Identity Verified</li>
-                                <li><i class="fa fa-credit-card-alt" style={{ color: green[500]}} ></i>  Payment Method Verified</li>
-                                <li><i class="fa fa-btc"  style={{ color: green[500]}} ></i>  Deposit Made</li>
-                                <li><i class="fa fa-envelope" style={{ color: green[500]}} ></i> Email Address Verified</li>
                                 <li><i class="fa fa-black-tie" style={{ color: green[500]}} ></i> Profile Completed</li>
                                 <li><i class="fa fa-phone" style={{ color: green[500]}} ></i> Phone No. Verified</li>
                             </ul>
@@ -132,7 +132,7 @@ const ProjectDetails=()=>{
                     
                             </div>
                     
-                    <div className="side wow anim fadeInLeft" style={{width:'290px',marginBottom:'10px'}} >
+                    <div className="side wow anim fadeInLeft" style={{width:'343px',marginBottom:'10px'}} >
                     <div className="item " style={{marginRight:'0px'}}>
                 
                     
