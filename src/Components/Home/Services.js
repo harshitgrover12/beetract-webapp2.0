@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CSSModules from "react-css-modules";
 import style from  './style.css';
+import bee from './bee.png'
 
 const Services=()=>{
        
@@ -38,7 +39,7 @@ const Services=()=>{
               </div>
             </div>
 
-            <h3 className="k7">Our Solutions </h3>
+            <img src={bee} width={105} height={105} style={{marginLeft:'22px',marginTop:'3px',paddingLeft:'10px'}} ></img>
 
             <div className=' wow fadeInRight' data-wow-delay=".5s">
             <p className="k4">Form your Team! Get your enthusiastic Prelancer.</p>
