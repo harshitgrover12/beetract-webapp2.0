@@ -5,8 +5,16 @@ import img from './clouds.png';
 import img1 from './new_logo.png';
 import img2 from './BeeTract_Home1.png';
 import Intro from './Intro';
+import Radio from '@material-ui/core/Radio';
+import { Typography } from '@material-ui/core';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormControl from '@material-ui/core/FormControl';
+import FormLabel from '@material-ui/core/FormLabel';
 
 class Home extends Component {
+
+    
   render() {
       return (
         <div id="body">
@@ -39,7 +47,7 @@ class Home extends Component {
               <li className="menu-active"><a href="#body">Home</a></li>
               <li><a href="#ourSolutions">Solutions</a></li>
               <li><a href="#about">About Us</a></li>
-              <li><a href="#portfolio">Get Support</a></li>
+              <li><a href="#contact">Get Support</a></li>
               <li><a href="/signIn">SignIn/SignUp</a></li>	
               
             </ul>
@@ -534,53 +542,80 @@ class Home extends Component {
           <div className="container">
             <div className="section-header">
               <h2>Contact Us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+              
             </div>
             <div className="row contact-info">
-              <div className="col-lg-5"> 
+              
                 <div className="contact-address">
-                  <i className="ion-ios-location-outline" />
+                  <i className="fa fa-map-marker" />
                   <h3>Address</h3>
-                  <address>MN-12 Lincon Street, NewYork 12356, USA</address>
+                  <address>Tamil Nadu, India</address>
                 </div> 
                 <div className="contact-phone">
-                  <i className="ion-ios-telephone-outline" />
+                  <i className="fa fa-phone"/>
                   <h3>Phone Number</h3>
-                  <p><a href="tel:+155895548855">+1 2345 67890 12</a></p>
+                  <p><a href="tel:+155895548855">+91 7539943139</a></p>
                 </div> 
                 <div className="contact-email">
-                  <i className="ion-ios-email-outline" />
+                  <i className="fa fa-envelope" />
                   <h3>Email</h3>
-                  <p><a href="mailto:info@example.com">name@website.com</a></p>
+                  <p><a href="mailto:info@example.com">info@thebeetract.com</a></p>
                 </div> 
-              </div>
-              <div className="col-lg-7">
+              
+                <div className="feedbacklabel">
+                <FormControl component="fieldset">
+                <RadioGroup row aria-label="position" name="position" defaultValue="top" >
+                  <FormControlLabel
+                    value="top"
+                    
+                    control={<Radio />}
+                    label={<Typography variant="h6"  color="initial" fontSize="10rem">Provide feedback</Typography>}
+                    labelPlacement="end"
+                  />
+                  <div style={{paddingTop:'5px',marginRight:'20px',marginLeft:'20px',fontSize:'14px'}}>or</div>
+                  <FormControlLabel
+                    
+                    label={<Typography variant="h6"  color="initial" fontSize="10rem">Report a bug</Typography>}
+                    value="start"
+                    control={<Radio />}
+                    labelPlacement="end"
+                  />
+                  <div style={{paddingTop:'5px',marginRight:'20px',marginLeft:'20px',fontSize:'14px'}}>or</div>
+                  <FormControlLabel
+                    value="bottom"
+                    control={<Radio />}
+                    label={<Typography variant="h6"  color="initial" fontSize="10rem">Ask for help</Typography>}
+                    labelPlacement="end"
+                  />
+          
+                </RadioGroup>
+              </FormControl>
+                </div>
+
                 <div className="container">
                   <div className="form"> 
                     {/* Form itself */}
                     <form name="sentMessage" className="well" id="contactForm" noValidate> 
                       <div className="control-group">
                         <div className="form-group">
-                          <input type="text" className="form-control" placeholder="Full Name" id="name" required data-validation-required-message="Please enter your name" />
+                          <Typography variant="h5" align="Left">What's your feedback about?</Typography>
+                          <input type="text" className="form-control"  id="name" required data-validation-required-message="Please enter your name" />
                           <p className="help-block" />
                         </div>
                       </div> 	
+                      
                       <div className="form-group">
+                      <Typography variant="h5" align="Left">Tell us a little more...</Typography>
                         <div className="controls">
-                          <input type="email" className="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email" />
-                        </div>
-                      </div> 	
-                      <div className="form-group">
-                        <div className="controls">
-                          <textarea rows={10} cols={100} className="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter your message" minLength={5} data-validation-minlength-message="Min 5 characters" maxLength={999} style={{resize: 'none'}} defaultValue={""} />
+                          <textarea rows={10} cols={100} className="form-control" placeholder="Share your experience with us. What went well? What could have gone better?" id="message" required data-validation-required-message="Please enter your message" minLength={5} data-validation-minlength-message="Min 5 characters" maxLength={999} style={{resize: 'none'}} defaultValue={""} />
                         </div>
                       </div> 		 
                       <div id="success"> </div> {/* For success/fail messages */}
-                      <button type="submit" className="btn btn-primary pull-right">Send</button><br />
+                      <button type="submit" className="btn btn-primary pull-left">Send</button><br />
                     </form>
                   </div>
                 </div>
-              </div>
+              
             </div>
           </div>
           
@@ -589,6 +624,61 @@ class Home extends Component {
       {/*==========================
   Footer
 ============================*/}
+
+<footer id="footer">
+          <div className="container">
+            <div className="col-lg-3 col-md-6">
+              <ul>
+                <div className="footerheading">Solutions</div>
+                <li>Projects</li>
+                <li>Freelancers</li>
+                <li>Prelancers</li>
+                <li>Assistance</li>
+                <li>Start Ups</li>
+                <li>Incubation</li>
+                <li>Job Hub</li>
+              </ul>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <ul>
+              <div className="footerheading">About Us</div>
+                <li>Company Profile</li>
+                <li>Team</li>
+                <li>Get Support</li>
+              </ul>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <ul>
+              <div className="footerheading">Others</div>
+                <li>How It Works</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Use</li>
+                </ul>
+            </div>
+            
+                            <div className="footerlogo">
+                                <a title="Twitter" href="#">
+                                    <span class="icon-pentagon wow bounceIn"><i class="fa fa-twitter"></i></span>
+                                </a>
+                                <a title="Whatsapp" href="#">
+                                <span class="icon-pentagon wow bounceIn"><i class="fa fa-whatsapp"></i></span>
+                                </a>
+                                <a title="Facebook" href="#">
+                                    <span class="icon-pentagon wow bounceIn"><i class="fa fa-facebook"></i></span>
+                                </a>
+                                <a title="linkedin" href="#">
+                                    <span class="icon-pentagon wow bounceIn"><i class="fa fa-linkedin"></i></span>
+                                </a>
+                                <a title="Instagram" href="#">
+                                    <span class="icon-pentagon wow bounceIn"><i class="fa fa-instagram"></i></span>
+                                </a>
+                             </div>   
+                            
+                        
+            
+          </div>
+        </footer>{/* #footer */}
+        <a href="#" className="back-to-top"><i className="fa fa-chevron-up" /></a>
       
     </div>   
       

@@ -270,16 +270,13 @@ ul.arrow li:before {
 }
 
 .icon-pentagon {
-    background: none repeat scroll 0 0 #ee3b24;
+    color:  #A4215d;
+    
 }
 
-.icon-pentagon:before {
-    border-bottom: 10px solid #ee3b24;
-}
 
-.icon-pentagon:after {
-    border-top: 10px solid #ee3b24;
-}
+
+
 
 .service-icon:before {
     border-bottom: 30px solid #ee3b24;
@@ -2243,9 +2240,10 @@ figure.effect-oscar:hover img {
     font-size: 18px;
 }
 
-.contact-info i {
+.contact-info  i {
     font-size: 18px;
     margin-right: 10px;
+   
 }
 
 
