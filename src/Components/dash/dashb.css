@@ -1,31 +1,51 @@
-.dash-page-container{
-    margin-top: 20vh;
-    display: flex;
-    justify-content: space-evenly
+.dash-page{
+    background-color: rgb(248, 248, 255);
+    font-family: sans-serif;
+    font-weight: bold;
 }
-#dash-box{
+
+#overall-projects,#overall-bids{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#project-id,#bid-id{
     display: inline-block;
-    width: auto;
     padding: 20px;
-    box-shadow: 1px 5px 6px 0px lightgrey;
-    transition: .3s ease-in-out;
+    background-color: white;
+    box-shadow: 3px 3px 8px lightgrey;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
 }
-#dash-box:hover{
-    transform: scale(1.1);
+#project-id span{
+    display: block;
 }
-#dash-box-title{
-    font-size: large;
-    margin-bottom: 20px;
+#bid-id span{
+    display: block;
 }
-#dash-box li{
-    width: 300px;
+.finance{
+    margin: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-#dash-box ul{
-    padding: 0;
-    margin: 0;
-}
-#dash-box span{
+#finance-graph,#finance-details{
     display: inline-block;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 8px lightgrey;
+    border-radius: 20px;
+}
+#finance-details-body{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#finance-details div{
+    margin: 30px 20px;
+}
+#finance-details span{
+    display: block;
+    font-size: 25px;
 }
